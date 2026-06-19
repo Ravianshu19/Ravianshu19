@@ -128,7 +128,7 @@
           <div class="processes-list">
             <div class="process-item">
               <div class="process-info">
-                <span class="process-name">PriceIQ Inference Queue</span>
+                <span class="process-name">Agentic Planner (LangGraph)</span>
                 <span class="process-status blinking">RUNNING</span>
               </div>
               <div class="process-bar-container">
@@ -137,7 +137,7 @@
             </div>
             <div class="process-item">
               <div class="process-info">
-                <span class="process-name">Teardown AST Parser</span>
+                <span class="process-name">Financial Sentiment Ingester</span>
                 <span class="process-status blinking">RUNNING</span>
               </div>
               <div class="process-bar-container">
@@ -146,7 +146,7 @@
             </div>
             <div class="process-item">
               <div class="process-info">
-                <span class="process-name">Constraint Solver Loop</span>
+                <span class="process-name">EV Geospatial Analytics</span>
                 <span class="process-status">WAITING</span>
               </div>
               <div class="process-bar-container">
@@ -243,16 +243,16 @@
           <div class="card-glow-border"></div>
           <div class="card-header">
             <span class="header-prefix">// PIPELINE_DIAGRAM</span>
-            <h3>PRICEIQ SYSTEM PIPELINE</h3>
+            <h3>AGENTIC RESEARCH SYSTEM PIPELINE</h3>
           </div>
           <div class="schematics-content">
             <div class="blueprint-terminal">
-              <div class="blueprint-row"><span class="blue-node">[Client Request]</span> ───⚙─── <span class="blue-node">[FastAPI Gateway]</span></div>
-              <div class="blueprint-subrow">└── <span class="blue-leaf">Enqueue Inference Task</span> ───⚙─── <span class="blue-node">[Redis Broker]</span></div>
-              <div class="blueprint-subrow" style="margin-left: 40px;">└── <span class="blue-leaf">Consume Task</span> ───⚙─── <span class="blue-node">[Celery Worker]</span></div>
-              <div class="blueprint-subrow" style="margin-left: 60px;">├── <span class="blue-leaf">Execute CatBoost ML Model</span></div>
-              <div class="blueprint-subrow" style="margin-left: 60px;">├── <span class="blue-leaf">Compute SHAP attributions on-the-fly</span></div>
-              <div class="blueprint-subrow" style="margin-left: 60px;">└── <span class="blue-leaf">Write record to Postgres DB</span></div>
+              <div class="blueprint-row"><span class="blue-node">[User Research Prompt]</span> ───⚙─── <span class="blue-node">[LangGraph Planner Agent]</span></div>
+              <div class="blueprint-subrow">└── <span class="blue-leaf">Formulate Search Strategy</span> ───⚙─── <span class="blue-node">[Tavily Search Engine]</span></div>
+              <div class="blueprint-subrow" style="margin-left: 20px;">└── <span class="blue-leaf">Extract Web Contents</span> ───⚙─── <span class="blue-node">[Markdown Scraper]</span></div>
+              <div class="blueprint-subrow" style="margin-left: 40px;">├── <span class="blue-leaf">Analyze &amp; Synthesize Findings</span> ───⚙─── <span class="blue-node">[Synthesis Agent]</span></div>
+              <div class="blueprint-subrow" style="margin-left: 60px;">├── <span class="blue-leaf">Verify Facts &amp; Attributions</span> ───⚙─── <span class="blue-node">[Fact-Checker Agent]</span></div>
+              <div class="blueprint-subrow" style="margin-left: 60px;">└── <span class="blue-leaf">Compile Final Report</span> ───⚙─── <span class="blue-node">[Structured PDF/Markdown]</span></div>
             </div>
           </div>
         </section>

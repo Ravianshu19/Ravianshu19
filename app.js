@@ -116,19 +116,19 @@ USER: Ravi Anshu
 ROLE: AI Backend & ML Engineer
 MOTTO: "Building intelligent systems, one commit at a time."
 ------------------------------------------------
-Currently optimizing dynamic dynamic-pricing queues,
-codebase AST analysis modules, and distributed task workers
-to design scalable machine-learning systems.
+Currently engineering autonomous search agents, real-time
+financial sentiment pipelines, and large-scale data 
+analytics frameworks.
 `,
     skills: () => `
 $ query_matrix --capabilities
 ------------------------------------------------
-AI & MACHINE LEARNING
+AI & MACHINE LEARNING / AGENTIC SYSTEMS
   - Python (Core Engine)
-  - PyTorch (Neural Models)
-  - CatBoost / XGBoost / LightGBM (Ensembles)
-  - SHAP (Explainability / Feature Attribution)
-  - Pandas / NumPy / Scikit-Learn (Pipelines)
+  - LangChain / LangGraph (Autonomous Multi-Agent planning)
+  - Transformers & NLP (Sentiment analysis, FinBERT models)
+  - Pandas / NumPy / Scikit-Learn (Pipelines & Regression)
+  - Data Visualizations (Matplotlib, Seaborn, Streamlit dashboards)
 
 BACKEND ARCHITECTURE & DEVTOOLS
   - FastAPI (REST APIs / Microservices)
@@ -141,29 +141,24 @@ BACKEND ARCHITECTURE & DEVTOOLS
     projects: () => `
 $ list_active_threads
 ------------------------------------------------
-🟢 Teardown AI [Active]
-   - LLM agent codebase architecture auditor.
-   - Parses AST structures to construct graph nodes and flags design anti-patterns.
-   - Link: <a href="https://github.com/Ravianshu19/teardown-ai" target="_blank" class="cyan-text">github.com/Ravianshu19/teardown-ai</a>
+🟢 Agentic Research Workflow [Active]
+   - Autonomous AI multi-agent research workflow built with LangGraph.
+   - Coordinates planning, web scraping, and content synthesis to generate verified reports.
+   - Link: <a href="https://github.com/Ravianshu19/AI-ML/tree/main/01-Agentic-Research-Workflow" target="_blank" class="cyan-text">github.com/Ravianshu19/AI-ML/.../01-Agentic-Research-Workflow</a>
 
-🟢 PriceIQ [Active]
-   - Dynamic ticket pricing engine processing real-time queues.
-   - Employs CatBoost/XGBoost models with local explainability driven by SHAP.
-   - Link: <a href="https://github.com/Ravianshu19/price-iq" target="_blank" class="cyan-text">github.com/Ravianshu19/price-iq</a>
+🟢 Electric Vehicles Market Analysis [Data Science]
+   - Large-scale data analysis and market intelligence platform.
+   - Explores EV registrations, clean energy adoption patterns, and utility data.
+   - Link: <a href="https://github.com/Ravianshu19/Data-Science/tree/main/Electric-Vehicles-Market-Analysis" target="_blank" class="cyan-text">github.com/Ravianshu19/Data-Science/.../Electric-Vehicles-Market-Analysis</a>
 
-🟢 Vessel Route Optimization [Research]
-   - Maritime route optimization utilizing constraint programming.
-   - Optimizes fuel-efficient speed profiles under delay and weather constraints.
-   - Link: <a href="https://github.com/Ravianshu19/vessel-route-opt" target="_blank" class="cyan-text">github.com/Ravianshu19/vessel-route-opt</a>
-
-🟢 Gridlock 2.0 Demand Predictor [Hackathon Win]
-   - Ensemble model (XGBoost + LightGBM) that won the Gridlock Hackathon.
-   - Improved prediction baseline from 90.9% to 98.77% R² accuracy.
-   - Link: <a href="https://github.com/Ravianshu19/gridlock-hackathon" target="_blank" class="cyan-text">github.com/Ravianshu19/gridlock-hackathon</a>
+🟢 Financial Market Intelligence [Active]
+   - Real-time financial data aggregation and sentiment intelligence platform.
+   - Ingests news streams, evaluates sentiments, and maps financial indicators.
+   - Link: <a href="https://github.com/Ravianshu19/Financial-Market-Intelligence" target="_blank" class="cyan-text">github.com/Ravianshu19/Financial-Market-Intelligence</a>
 `,
     telemetry: () => {
-      const cpu = (70 + Math.random() * 20).toFixed(1);
-      const ram = (11.8 + Math.random() * 2).toFixed(1);
+      const cpu = (60 + Math.random() * 20).toFixed(1);
+      const ram = (10.5 + Math.random() * 2).toFixed(1);
       const latency = Math.floor(10 + Math.random() * 15);
       return `
 $ systemctl status --diagnostics
@@ -173,8 +168,8 @@ LATENCY:          ${latency}ms
 CPU_UTILIZATION:  ${cpu}%
 MEMORY_USED:      ${ram} GB / 16.0 GB
 NET_THROUGHPUT:   948 Mbps (ENCRYPTED)
-PRICEIQ_QUEUE:    128 tasks in Redis queue
-SOLVER_STATUS:    OR-Tools constraint loop STABLE
+RESEARCH_QUEUE:   Active LangGraph threads running
+FINANCIAL_STREAM: NewsAPI aggregation pipeline online
 ------------------------------------------------
 ALL CORE PORTFOLIO CHANNELS OPERATIVE.
 `;

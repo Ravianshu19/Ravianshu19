@@ -36,31 +36,26 @@ Focus areas:
 </tr>
 <tr>
 <td width="50%" valign="top" style="background-color: #05060c; border: 1px solid #1e293b; border-radius: 8px; padding: 15px;">
-<div align="left" style="font-family: monospace; color: #a855f7; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px;">[PORTFOLIO // VERIFIABLE_PROJECTS]</div>
-<h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ FEATURED PROJECTS</h3>
-<div style="font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #94a3b8; background: #030408; padding: 12px; border-radius: 4px; border-left: 3px solid #a855f7; margin-bottom: 8px;">
-<b style="color: #ffffff;">🟢 <a href="https://github.com/Ravianshu19/teardown-ai" style="color: #00F5FF; text-decoration: none;">Teardown AI</a></b><br/>
-Codebase architecture auditing engine. Parses AST structures to construct graph representations and automatically flags structural design anti-patterns.<br/>
-<span style="color: #64748b;">Stack: Python, AST Parsing, Custom Agent Controllers, Graph DB</span>
+<div align="left" style="font-family: monospace; color: #a855f7; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px;">[PORTFOLIO // ACTIVE_AI_AND_PIPELINES]</div>
+<h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ ACTIVE CORE SYSTEMS</h3>
+<div style="font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #94a3b8; background: #030408; padding: 12px; border-radius: 4px; border-left: 3px solid #00F5FF; margin-bottom: 8px;">
+<b style="color: #ffffff;">🟢 <a href="https://github.com/Ravianshu19/AI-ML/tree/main/01-Agentic-Research-Workflow" style="color: #00F5FF; text-decoration: none;">Agentic Research Workflow</a></b><br/>
+Autonomous AI multi-agent research workflow built with LangGraph. Coordinates planning, web scraping, and content synthesis to generate verified reports.<br/>
+<span style="color: #64748b;">Stack: Python, LangGraph, Tavily Search, Gemini API, Streamlit</span>
 </div>
 <div style="font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #94a3b8; background: #030408; padding: 12px; border-radius: 4px; border-left: 3px solid #a855f7;">
-<b style="color: #ffffff;">🟢 <a href="https://github.com/Ravianshu19/price-iq" style="color: #00F5FF; text-decoration: none;">PriceIQ</a></b><br/>
-Dynamic ticket pricing engine processing real-time queues. Employs CatBoost/XGBoost models with local explanations computed on-the-fly via SHAP.<br/>
-<span style="color: #64748b;">Stack: FastAPI, Redis, Celery, CatBoost, SHAP explanations</span>
+<b style="color: #ffffff;">🟢 <a href="https://github.com/Ravianshu19/Financial-Market-Intelligence" style="color: #00F5FF; text-decoration: none;">Financial Market Intelligence</a></b><br/>
+Real-time financial data pipeline and sentiment analysis aggregator. Ingests news streams, evaluates sentiments on tickers, and maps financial indicators.<br/>
+<span style="color: #64748b;">Stack: FastAPI, PostgreSQL, Redis, Celery, Transformer Models, Pandas</span>
 </div>
 </td>
 <td width="50%" valign="top" style="background-color: #05060c; border: 1px solid #1e293b; border-radius: 8px; padding: 15px;">
-<div align="left" style="font-family: monospace; color: #a855f7; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px;">[PORTFOLIO // RESEARCH_AND_WINS]</div>
-<h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ SCIENTIFIC &amp; HACKATHONS</h3>
-<div style="font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #94a3b8; background: #030408; padding: 12px; border-radius: 4px; border-left: 3px solid #a855f7; margin-bottom: 8px;">
-<b style="color: #ffffff;">🟢 <a href="https://github.com/Ravianshu19/vessel-route-opt" style="color: #00F5FF; text-decoration: none;">Vessel Route Optimization</a></b><br/>
-Maritime route optimization algorithm. Implements constraint-programming constraints to find fuel-minimizing speed paths under weather and ETA window bounds.<br/>
-<span style="color: #64748b;">Stack: Python, OR-Tools, Geospatial APIs, Pandas, NumPy</span>
-</div>
-<div style="font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #94a3b8; background: #030408; padding: 12px; border-radius: 4px; border-left: 3px solid #a855f7;">
-<b style="color: #ffffff;">🟢 <a href="https://github.com/Ravianshu19/gridlock-hackathon" style="color: #00F5FF; text-decoration: none;">Gridlock 2.0 Demand Predictor</a></b><br/>
-Ensemble model (XGBoost + LightGBM) that won the Gridlock Hackathon by raising the baseline demand prediction model accuracy to **98.77% R²**.<br/>
-<span style="color: #64748b;">Stack: Python, XGBoost, LightGBM, Scikit-Learn, Pandas</span>
+<div align="left" style="font-family: monospace; color: #a855f7; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px;">[PORTFOLIO // DATA_SCIENCE_AND_ANALYTICS]</div>
+<h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ DATA SCIENCE &amp; ANALYTICS</h3>
+<div style="font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #94a3b8; background: #030408; padding: 18px; border-radius: 4px; border-left: 3px solid #a855f7;">
+<b style="color: #ffffff;">🟢 <a href="https://github.com/Ravianshu19/Data-Science/tree/main/Electric-Vehicles-Market-Analysis" style="color: #00F5FF; text-decoration: none;">Electric Vehicles Market Analysis</a></b><br/><br/>
+Large-scale geospatial data analysis and market intelligence dashboard. Maps EV adoption growth profiles, utility grid impacts, battery metrics, and registration patterns using public datasets.<br/><br/>
+<span style="color: #64748b;">Stack: Jupyter Notebooks, Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn</span>
 </div>
 </td>
 </tr>
@@ -135,28 +130,27 @@ Placed in the Top 5% of leaderboards by developing robust rolling time-series fe
 <!-- COLLAPSIBLE SYSTEM SCHEMATICS (MERMAID) -->
 <details style="background-color: #05060c; border: 1px solid #1e293b; border-radius: 8px; padding: 15px; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
 <summary style="font-family: 'Share Tech Mono', monospace; color: #00F5FF; cursor: pointer; font-size: 14px; font-weight: bold; outline: none; list-style: none;">
-<b>▼ VIEW PRICEIQ PRODUCTION PIPELINE (ARCHITECTURE SCHEMATIC)</b>
+<b>▼ VIEW AGENTIC RESEARCH WORKFLOW (SYSTEM SCHEMATIC)</b>
 </summary>
 <div style="margin-top: 15px;">
 
 ```mermaid
 graph TD
-    Client[Client Request] -->|REST / HTTPS| API[FastAPI Gateway]
-    API -->|Enqueue Inference Job| Redis[(Redis Broker)]
-    Redis -->|Consume Task| Celery[Celery Worker Cluster]
-    Celery -->|Execute Model| Model[CatBoost Inference Model]
-    Model -->|Generate Explainability Metrics| SHAP[SHAP Explanation Engine]
-    SHAP -->|Write Result| Backend[(Postgres Database)]
-    Celery -->|Resolve Task Status| Redis
-    API -->|Poll Status / Return JSON| Client
+    User[User Prompt] -->|Inputs query| Planner[LangGraph Planner Agent]
+    Planner -->|Formulate search targets| Search[Tavily Search Tool]
+    Search -->|Retrieve web results| Scraper[Web Content Scraper]
+    Scraper -->|Extract raw text| Synthesis[Research Synthesis Agent]
+    Synthesis -->|Construct initial draft| Verifier[Validation & Fact-Checker Agent]
+    Verifier -->|Iterative review / Fixes| Planner
+    Verifier -->|Final approved report| Client[Markdown Document Output]
     
+    style User fill:#0f172a,stroke:#94a3b8,stroke-width:2px,color:#fff
+    style Planner fill:#0A0B10,stroke:#00F5FF,stroke-width:2px,color:#fff
+    style Search fill:#0A0B10,stroke:#A855F7,stroke-width:2px,color:#fff
+    style Scraper fill:#0A0B10,stroke:#A855F7,stroke-width:2px,color:#fff
+    style Synthesis fill:#0A0B10,stroke:#00F5FF,stroke-width:2px,color:#fff
+    style Verifier fill:#0A0B10,stroke:#22C55E,stroke-width:2px,color:#fff
     style Client fill:#0f172a,stroke:#94a3b8,stroke-width:2px,color:#fff
-    style API fill:#0A0B10,stroke:#00F5FF,stroke-width:2px,color:#fff
-    style Redis fill:#0A0B10,stroke:#A855F7,stroke-width:2px,color:#fff
-    style Celery fill:#0A0B10,stroke:#00F5FF,stroke-width:2px,color:#fff
-    style Model fill:#0A0B10,stroke:#22C55E,stroke-width:2px,color:#fff
-    style SHAP fill:#0A0B10,stroke:#A855F7,stroke-width:2px,color:#fff
-    style Backend fill:#0f172a,stroke:#94a3b8,stroke-width:2px,color:#fff
 ```
 
 </div>
