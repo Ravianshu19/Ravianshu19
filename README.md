@@ -1,6 +1,6 @@
 <!-- RAVIOS v4.0 OPERATING SYSTEM GRAPHICAL PORTAL -->
 <div align="center">
-<img src="assets/ravios_header.svg?v=1.5" width="100%" alt="RaviOS v4.0" />
+<img src="assets/ravios_header.svg" width="100%" alt="RaviOS v4.0" />
 </div>
 <p align="center">
 <a href="https://ravianshu19.github.io/Ravianshu19/">
@@ -13,7 +13,7 @@
 <img src="https://img.shields.io/badge/COGNITION-PRODUCTION_ENGINEERING-00f5ff?style=flat-square&labelColor=1e1b4b" alt="Cognition status" />
 </p>
 <div align="center">
-<img src="assets/cyberpunk_divider.svg?v=1.5" width="100%" />
+<img src="assets/cyberpunk_divider.svg" width="100%" />
 </div>
 <!-- MAIN OPERATING PANEL - BENTO GRID INTERFACE -->
 <table width="100%" border="0" cellpadding="10" cellspacing="5" style="border-collapse: collapse; border: none;">
@@ -74,8 +74,8 @@ Large-scale geospatial data analysis and market intelligence dashboard. Maps EV 
 <div align="left" style="font-family: monospace; color: #a855f7; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px;">[GRID_INTRUSION // ANIMATED]</div>
 <h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ CONTRIBUTION SNAKE</h3>
 <div align="center" style="padding-top: 10px;">
-<img src="https://raw.githubusercontent.com/Ravianshu19/Ravianshu19/output/github-contribution-grid-snake-dark.svg?v=1.4#gh-dark-mode-only" alt="Contribution Snake" width="100%" />
-<img src="https://raw.githubusercontent.com/Ravianshu19/Ravianshu19/output/github-contribution-grid-snake.svg?v=1.4#gh-light-mode-only" alt="Contribution Snake" width="100%" />
+<img src="https://raw.githubusercontent.com/Ravianshu19/Ravianshu19/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="Contribution Snake" width="100%" />
+<img src="https://raw.githubusercontent.com/Ravianshu19/Ravianshu19/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="Contribution Snake" width="100%" />
 </div>
 </td>
 <td width="50%" valign="top" style="background-color: #05060c; border: 1px solid #1e293b; border-radius: 8px; padding: 15px;">
@@ -125,7 +125,7 @@ Placed in the Top 5% of leaderboards by developing robust rolling time-series fe
 </tr>
 </table>
 <div align="center" style="margin-top: 15px; margin-bottom: 15px;">
-<img src="assets/cyberpunk_divider.svg?v=1.5" width="100%" />
+<img src="assets/cyberpunk_divider.svg" width="100%" />
 </div>
 <!-- COLLAPSIBLE SYSTEM SCHEMATICS (MERMAID) -->
 <details style="background-color: #05060c; border: 1px solid #1e293b; border-radius: 8px; padding: 15px; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
@@ -156,7 +156,7 @@ graph TD
 </div>
 </details>
 <div align="center" style="margin-top: 20px; margin-bottom: 20px;">
-<img src="assets/cyberpunk_divider.svg?v=1.5" width="100%" />
+<img src="assets/cyberpunk_divider.svg" width="100%" />
 </div>
 <!-- CONNECT SECTIONS -->
 <h3 align="center" style="color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif; letter-spacing: 2px;">◇ CONNECT // INITIATE_HANDSHAKE</h3>
