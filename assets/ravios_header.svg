@@ -1,25 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 150" width="100%" height="150" fill="none">
   <defs>
-    <!-- Fonts -->
+    <!-- Fonts and Styles -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&amp;family=Share+Tech+Mono&amp;display=swap');
-      
       .title {
-        font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-family: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         font-weight: 700;
         font-size: 26px;
         fill: #00F5FF;
-        filter: drop-shadow(0 0 8px rgba(0, 245, 255, 0.6));
       }
       .subtitle {
-        font-family: 'Share Tech Mono', monospace;
+        font-family: 'Share Tech Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
         font-size: 13px;
         fill: #A855F7;
         letter-spacing: 2px;
-        filter: drop-shadow(0 0 4px rgba(168, 85, 247, 0.4));
       }
       .telemetry {
-        font-family: 'Share Tech Mono', monospace;
+        font-family: 'Share Tech Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
         font-size: 11px;
         fill: #94A3B8;
       }
@@ -31,19 +27,15 @@
       /* Animations */
       @keyframes pulse {
         0%, 100% { opacity: 0.4; }
-        50% { opacity: 1; filter: drop-shadow(0 0 8px #00F5FF); }
+        50% { opacity: 1; }
       }
       @keyframes blink {
         0%, 100% { opacity: 0; }
         50% { opacity: 1; }
       }
-      @keyframes scan {
-        0% { transform: translateY(-50px); }
-        100% { transform: translateY(150px); }
-      }
       @keyframes status-pulse {
-        0%, 100% { filter: drop-shadow(0 0 2px #22C55E); opacity: 0.7; }
-        50% { filter: drop-shadow(0 0 8px #22C55E); opacity: 1; }
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
       }
       @keyframes progress-slide {
         0% { stroke-dashoffset: 240; }
@@ -70,6 +62,13 @@
     </filter>
     <filter id="purple-glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="green-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -113,8 +112,8 @@
   <line x1="650" y1="25" x2="640" y2="35" stroke="#00F5FF" stroke-width="0.5" stroke-opacity="0.3" />
 
   <!-- Main System Info & Branding -->
-  <text x="35" y="62" class="subtitle">SYSTEM CONFIGURATION // ACTIVE</text>
-  <text x="35" y="98" class="title">RaviOS v4.0</text>
+  <text x="35" y="62" class="subtitle" filter="url(#purple-glow)">SYSTEM CONFIGURATION // ACTIVE</text>
+  <text x="35" y="98" class="title" filter="url(#cyan-glow)">RaviOS v4.0</text>
   
   <!-- Terminal Prompt Cursor Simulator -->
   <rect x="200" y="78" width="12" height="22" fill="#00F5FF" class="blinking" filter="url(#cyan-glow)" />
@@ -132,7 +131,7 @@
   
   <!-- Live Status Light Indicator (Top Right) -->
   <g transform="translate(710, 52)">
-    <circle cx="0" cy="0" r="5" class="status-light" />
+    <circle cx="0" cy="0" r="5" class="status-light" filter="url(#green-glow)" />
     <text x="12" y="4" font-family="'Share Tech Mono', monospace" font-size="12" fill="#22C55E" font-weight="bold">ONLINE</text>
   </g>
 
