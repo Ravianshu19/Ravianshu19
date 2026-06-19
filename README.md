@@ -8,7 +8,7 @@
 </a>
 </p>
 <p align="center">
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRavianshu19%2FRavianshu19&amp;count_bg=%2300F5FF&amp;title_bg=%231E1B4B&amp;icon=&amp;icon_color=%23E7E7E7&amp;title=SYSTEM_ACCESSES&amp;edge_flat=true" alt="Visitor Count" />
+<img src="https://komarev.com/ghpvc/?username=Ravianshu19&amp;color=00f5ff&amp;style=flat-square&amp;label=SYSTEM_ACCESSES" alt="Visitor Count" />
 <img src="https://img.shields.io/github/last-commit/Ravianshu19/Ravianshu19?color=a855f7&style=flat-square&label=LAST_COMPILATION" alt="Last Commit" />
 <img src="https://img.shields.io/badge/COGNITION-PRODUCTION_ENGINEERING-00f5ff?style=flat-square&labelColor=1e1b4b" alt="Cognition status" />
 </p>
