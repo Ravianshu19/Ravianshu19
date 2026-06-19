@@ -1,0 +1,857 @@
+/* ----------------------------------------------------
+   RaviOS v4.0 DESIGN SYSTEM
+   Aesthetic: Apple Vision Pro x Linear x Cyberpunk 2077
+---------------------------------------------------- */
+
+:root {
+  /* Color Palette */
+  --bg-color: #030307;
+  --panel-bg: rgba(10, 12, 22, 0.45);
+  --panel-border: rgba(255, 255, 255, 0.08);
+  --panel-border-glow: rgba(0, 245, 255, 0.2);
+  
+  --neon-cyan: #00F5FF;
+  --neon-purple: #A855F7;
+  --neon-green: #22C55E;
+  --neon-red: #EF4444;
+  
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-dark: #475569;
+  
+  /* Fonts */
+  --font-sans: 'Space Grotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'Share Tech Mono', monospace;
+  
+  /* Shadows & Depth */
+  --shadow-spatial: 0 20px 50px rgba(0, 0, 0, 0.6), inset 0 1px 1px rgba(255, 255, 255, 0.1);
+  --neon-cyan-glow: 0 0 15px rgba(0, 245, 255, 0.4);
+  --neon-purple-glow: 0 0 15px rgba(168, 85, 247, 0.4);
+  
+  /* Mouse spotlight variables */
+  --mouse-x: 50%;
+  --mouse-y: 50%;
+}
+
+/* 1. Global Reset & Scrollbars */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+}
+
+/* Custom Scrollbar for Terminal */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-dark);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--neon-cyan);
+}
+
+/* 2. Background Ambience Elements */
+.space-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 50%, #0c0f24 0%, #030307 100%);
+  z-index: -3;
+}
+
+.cyber-grid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-position: center center;
+  z-index: -2;
+  pointer-events: none;
+}
+
+.glow-orb {
+  position: fixed;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  filter: blur(140px);
+  opacity: 0.15;
+  z-index: -1;
+  pointer-events: none;
+  animation: orb-float 20s infinite alternate ease-in-out;
+}
+.orb-cyan {
+  background: var(--neon-cyan);
+  top: -100px;
+  left: -100px;
+}
+.orb-purple {
+  background: var(--neon-purple);
+  bottom: -150px;
+  right: -100px;
+  animation-delay: -10s;
+}
+
+@keyframes orb-float {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(80px, 50px) scale(1.2); }
+}
+
+/* Mouse spotlight glow layer */
+#spotlight {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+  background: radial-gradient(circle 350px at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.03) 0%, transparent 100%);
+}
+
+/* 3. Main Layout Structure */
+.os-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Top Status Bar */
+.os-status-bar {
+  width: 100%;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+  border-radius: 6px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.status-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.status-logo {
+  font-weight: bold;
+  color: var(--text-primary);
+}
+.status-indicator {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--neon-green);
+  box-shadow: 0 0 8px var(--neon-green);
+}
+.status-label {
+  color: var(--neon-green);
+}
+
+.status-center {
+  font-size: 10px;
+  opacity: 0.8;
+  animation: telemetry-pulse 3s infinite ease-in-out;
+}
+
+@keyframes telemetry-pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; color: var(--neon-cyan); }
+}
+
+.status-right {
+  display: flex;
+  gap: 16px;
+}
+.os-clock {
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
+/* Desktop Workspace */
+.os-desktop {
+  flex: 1;
+  width: 100%;
+  overflow-y: auto;
+  padding-bottom: 90px; /* Space for Dock */
+}
+
+/* Bento Grid */
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(180px, auto);
+  gap: 16px;
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* 4. Bento Grid Panels (Spatial UI Glassmorphism) */
+.bento-card {
+  background: var(--panel-bg);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid var(--panel-border);
+  border-radius: 16px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow-spatial);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), 
+              border-color 0.4s ease, 
+              box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+/* Hover highlights */
+.bento-card:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7), 
+              0 0 20px rgba(0, 245, 255, 0.05),
+              0 0 40px rgba(168, 85, 247, 0.05);
+}
+
+/* Glowing Border Effect */
+.card-glow-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  pointer-events: none;
+  background: radial-gradient(circle 120px at var(--mouse-x) var(--mouse-y), rgba(0, 245, 255, 0.15), transparent 100%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 2;
+}
+.bento-card:hover .card-glow-border {
+  opacity: 1;
+}
+
+/* Header detail for bento cards */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  z-index: 3;
+}
+.card-header h3 {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--text-primary);
+}
+.header-prefix {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--neon-purple);
+  letter-spacing: 1.5px;
+}
+.tech-id {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--text-dark);
+}
+
+/* 5. Specific Card Content Styles */
+
+/* Card 1: Profile */
+.card-profile {
+  grid-row: span 2;
+  display: flex;
+  flex-direction: column;
+}
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+}
+.avatar-container {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin-bottom: 16px;
+}
+.avatar-ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1.5px dashed var(--neon-cyan);
+  animation: rotate-dashed 20s linear infinite;
+}
+.avatar-glitch {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 10px rgba(0, 245, 255, 0.2);
+}
+
+@keyframes rotate-dashed {
+  100% { transform: rotate(360deg); }
+}
+
+.profile-name {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+  letter-spacing: -0.5px;
+}
+.profile-role {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--neon-cyan);
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+.profile-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  padding: 6px 10px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+.detail-row .label {
+  color: var(--text-secondary);
+}
+.detail-row .value {
+  color: var(--text-primary);
+  font-weight: bold;
+}
+.cyan-text { color: var(--neon-cyan) !important; text-shadow: 0 0 5px rgba(0, 245, 255, 0.3); }
+.green-text { color: var(--neon-green) !important; }
+
+/* Card 2: Terminal Console */
+.card-terminal {
+  grid-column: span 2;
+  grid-row: span 2;
+  background: rgba(3, 4, 8, 0.7);
+  display: flex;
+  flex-direction: column;
+}
+.terminal-controls {
+  display: flex;
+  gap: 6px;
+}
+.term-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.term-dot.close { background-color: var(--neon-red); }
+.term-dot.minimize { background-color: #EAB308; }
+.term-dot.expand { background-color: var(--neon-green); }
+
+.terminal-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: #CBD5E1;
+  padding: 10px 5px;
+  overflow: hidden;
+}
+.terminal-output {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-right: 5px;
+}
+.terminal-line {
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+.text-system { color: var(--neon-purple); }
+.text-error { color: var(--neon-red); }
+.text-success { color: var(--neon-green); }
+.terminal-input-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 10px;
+}
+.terminal-prompt {
+  color: var(--neon-cyan);
+}
+#terminal-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+
+/* Card 3: Core Processes */
+.card-processes {
+  grid-column: 1;
+}
+.processes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.process-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.process-info {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+.process-name {
+  color: var(--text-primary);
+}
+.process-status {
+  font-weight: bold;
+  font-size: 9px;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.process-status.blinking {
+  background: rgba(0, 245, 255, 0.1);
+  color: var(--neon-cyan);
+  border: 1px solid rgba(0, 245, 255, 0.2);
+  animation: blink 2s infinite ease-in-out;
+}
+@keyframes blink {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+.process-bar-container {
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.process-bar {
+  height: 100%;
+  border-radius: 2px;
+}
+.progress-teal { background: var(--neon-cyan); box-shadow: 0 0 8px var(--neon-cyan); }
+.progress-purple { background: var(--neon-purple); box-shadow: 0 0 8px var(--neon-purple); }
+.progress-slate { background: var(--text-dark); }
+
+/* Card 4: Tech Matrix */
+.card-tech {
+  grid-column: span 2;
+}
+.tech-matrix-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.tech-cell {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.tech-cell:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--neon-cyan);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 245, 255, 0.1);
+}
+.tech-cell img {
+  width: 32px;
+  height: 32px;
+}
+.tech-desc {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-secondary);
+}
+
+/* Card 5: Spotify Now Playing */
+.card-spotify {
+  grid-column: 1;
+}
+.spotify-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.spotify-track-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+}
+.album-art {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.record-vinyl {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #2d1847 20%, #111 60%, #000 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.record-vinyl::before {
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 50%;
+}
+.record-center {
+  width: 12px;
+  height: 12px;
+  background: var(--neon-cyan);
+  border-radius: 50%;
+}
+.record-vinyl.spinning {
+  animation: spin 6s linear infinite;
+}
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
+.track-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  overflow: hidden;
+}
+.track-title {
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+.track-artist {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--neon-cyan);
+}
+
+.spotify-visualizer {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 30px;
+  width: 100%;
+  justify-content: center;
+}
+.vis-bar {
+  width: 4px;
+  height: 2px;
+  background-color: var(--neon-purple);
+  border-radius: 2px;
+  transition: height 0.1s ease;
+}
+.vis-bar.playing {
+  animation: visualize 1.2s infinite ease-in-out alternate;
+}
+.vis-bar.bar-1 { animation-delay: 0.1s; }
+.vis-bar.bar-2 { animation-delay: 0.4s; }
+.vis-bar.bar-3 { animation-delay: 0.2s; }
+.vis-bar.bar-4 { animation-delay: 0.6s; }
+.vis-bar.bar-5 { animation-delay: 0.3s; }
+.vis-bar.bar-6 { animation-delay: 0.5s; }
+.vis-bar.bar-7 { animation-delay: 0.2s; }
+.vis-bar.bar-8 { animation-delay: 0.7s; }
+
+@keyframes visualize {
+  0% { height: 4px; background-color: var(--neon-purple); }
+  100% { height: 28px; background-color: var(--neon-cyan); }
+}
+
+.spotify-controls {
+  width: 100%;
+}
+.ctrl-btn {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+.ctrl-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--neon-cyan);
+  box-shadow: 0 0 10px rgba(0, 245, 255, 0.2);
+}
+
+/* Card 6: Cognitive System Map */
+.card-schematics {
+  grid-column: span 2;
+}
+.schematics-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.blueprint-terminal {
+  width: 100%;
+  background: rgba(3, 4, 8, 0.5);
+  border: 1px dashed rgba(168, 85, 247, 0.2);
+  border-radius: 8px;
+  padding: 16px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+.blueprint-row {
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+.blueprint-subrow {
+  margin-left: 20px;
+  margin-bottom: 6px;
+  opacity: 0.85;
+}
+.blue-node {
+  color: var(--neon-cyan);
+  font-weight: bold;
+}
+.blue-leaf {
+  color: var(--text-primary);
+}
+
+/* 6. Apple Vision Pro Floating Dock */
+.os-dock {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  pointer-events: auto;
+}
+.dock-inner {
+  background: rgba(15, 23, 42, 0.3);
+  backdrop-filter: blur(30px) saturate(180%);
+  -webkit-backdrop-filter: blur(30px) saturate(180%);
+  border: 1.5px solid rgba(255, 255, 255, 0.08);
+  border-radius: 40px;
+  padding: 10px 18px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  box-shadow: 
+    0 30px 60px rgba(0, 0, 0, 0.6), 
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+  transform: translateZ(20px);
+}
+.dock-item {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
+}
+.dock-item svg {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.3s ease;
+}
+.dock-item:hover {
+  transform: translateY(-8px) scale(1.18);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--neon-cyan);
+  color: var(--neon-cyan);
+  box-shadow: 0 10px 20px rgba(0, 245, 255, 0.2);
+}
+.dock-item:hover svg {
+  transform: rotate(5deg);
+}
+
+/* Tooltip on Hover */
+.dock-item::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 56px;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background: rgba(10, 11, 20, 0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-primary);
+  font-size: 10px;
+  font-family: var(--font-mono);
+  padding: 6px 12px;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  letter-spacing: 0.5px;
+}
+.dock-item:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Active status marker dot below dock items */
+.dock-item.active::before {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: var(--neon-cyan);
+  box-shadow: 0 0 6px var(--neon-cyan);
+}
+
+/* 7. Responsive Adaptations */
+@media (max-width: 900px) {
+  .bento-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-terminal {
+    grid-column: span 2;
+  }
+  .card-tech {
+    grid-column: span 2;
+  }
+  .card-schematics {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .bento-grid {
+    grid-template-columns: 1fr;
+  }
+  .bento-card {
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
+  }
+  .os-status-bar {
+    font-size: 9px;
+    padding: 0 10px;
+  }
+  .status-center {
+    display: none;
+  }
+  .dock-inner {
+    padding: 8px 12px;
+    gap: 10px;
+  }
+  .dock-item {
+    width: 36px;
+    height: 36px;
+  }
+  .dock-item svg {
+    width: 16px;
+    height: 16px;
+  }
+}

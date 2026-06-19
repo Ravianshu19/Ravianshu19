@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 150" width="100%" height="150" fill="none">
+  <defs>
+    <!-- Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&amp;family=Share+Tech+Mono&amp;display=swap');
+      
+      .title {
+        font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        fill: #00F5FF;
+        filter: drop-shadow(0 0 8px rgba(0, 245, 255, 0.6));
+      }
+      .subtitle {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 13px;
+        fill: #A855F7;
+        letter-spacing: 2px;
+        filter: drop-shadow(0 0 4px rgba(168, 85, 247, 0.4));
+      }
+      .telemetry {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 11px;
+        fill: #94A3B8;
+      }
+      .telemetry-val {
+        fill: #00F5FF;
+        font-weight: bold;
+      }
+      
+      /* Animations */
+      @keyframes pulse {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 1; filter: drop-shadow(0 0 8px #00F5FF); }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 0; }
+        50% { opacity: 1; }
+      }
+      @keyframes scan {
+        0% { transform: translateY(-50px); }
+        100% { transform: translateY(150px); }
+      }
+      @keyframes status-pulse {
+        0%, 100% { filter: drop-shadow(0 0 2px #22C55E); opacity: 0.7; }
+        50% { filter: drop-shadow(0 0 8px #22C55E); opacity: 1; }
+      }
+      @keyframes progress-slide {
+        0% { stroke-dashoffset: 240; }
+        50% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -240; }
+      }
+      
+      .pulsing { animation: pulse 3s infinite ease-in-out; }
+      .blinking { animation: blink 1s infinite steps(2); }
+      .status-light { animation: status-pulse 2s infinite ease-in-out; fill: #22C55E; }
+      .progress-bar {
+        stroke-dasharray: 240;
+        animation: progress-slide 8s infinite linear;
+      }
+    </style>
+
+    <!-- Neon Glow Filters -->
+    <filter id="cyan-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="purple-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <!-- Linear Gradients -->
+    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base Panel -->
+  <rect width="798" height="148" x="1" y="1" rx="12" fill="#0A0B10" stroke="url(#cyber-grad)" stroke-width="1.5" />
+  
+  <!-- Subtle Spatial UI Shading -->
+  <rect width="796" height="146" x="2" y="2" rx="11" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1" />
+  
+  <!-- Blueprint Grid Pattern in Background -->
+  <path d="M 0,20 L 800,20 M 0,40 L 800,40 M 0,60 L 800,60 M 0,80 L 800,80 M 0,100 L 800,100 M 0,120 L 800,120 M 0,140 L 800,140" stroke="#ffffff" stroke-opacity="0.02" stroke-width="0.5" />
+  <path d="M 100,0 L 100,150 M 200,0 L 200,150 M 300,0 L 300,150 M 400,0 L 400,150 M 500,0 L 500,150 M 600,0 L 600,150 M 700,0 L 700,150" stroke="#ffffff" stroke-opacity="0.02" stroke-width="0.5" />
+
+  <!-- Corner Brackets (Apple Vision Pro / Cyberpunk Style) -->
+  <!-- Top Left -->
+  <path d="M 15,6 L 6,6 L 6,15" stroke="#00F5FF" stroke-width="2" fill="none" />
+  <!-- Top Right -->
+  <path d="M 785,6 L 794,6 L 794,15" stroke="#A855F7" stroke-width="2" fill="none" />
+  <!-- Bottom Left -->
+  <path d="M 6,135 L 6,144 L 15,144" stroke="#A855F7" stroke-width="2" fill="none" />
+  <!-- Bottom Right -->
+  <path d="M 794,135 L 794,144 L 785,144" stroke="#00F5FF" stroke-width="2" fill="none" />
+
+  <!-- Decorative Tech Line / Grid Matrix Graphics -->
+  <line x1="25" y1="25" x2="150" y2="25" stroke="#A855F7" stroke-width="0.5" stroke-opacity="0.3" />
+  <circle cx="150" cy="25" r="2.5" fill="#A855F7" fill-opacity="0.6" />
+  <line x1="150" y1="25" x2="160" y2="35" stroke="#A855F7" stroke-width="0.5" stroke-opacity="0.3" />
+  
+  <line x1="775" y1="25" x2="650" y2="25" stroke="#00F5FF" stroke-width="0.5" stroke-opacity="0.3" />
+  <circle cx="650" cy="25" r="2.5" fill="#00F5FF" fill-opacity="0.6" />
+  <line x1="650" y1="25" x2="640" y2="35" stroke="#00F5FF" stroke-width="0.5" stroke-opacity="0.3" />
+
+  <!-- Main System Info & Branding -->
+  <text x="35" y="62" class="subtitle">SYSTEM CONFIGURATION // ACTIVE</text>
+  <text x="35" y="98" class="title">RaviOS v4.0</text>
+  
+  <!-- Terminal Prompt Cursor Simulator -->
+  <rect x="200" y="78" width="12" height="22" fill="#00F5FF" class="blinking" filter="url(#cyan-glow)" />
+
+  <!-- Divider Line -->
+  <line x1="35" y1="112" x2="765" y2="112" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+
+  <!-- Telemetry Bar (Bottom Row) -->
+  <text x="35" y="130" class="telemetry">
+    SYS_STATUS: <tspan class="telemetry-val">STABLE</tspan> | 
+    CORE: <tspan class="telemetry-val">AI_ENGINE_v4</tspan> | 
+    LOC: <tspan class="telemetry-val">BANGALORE.IN</tspan> | 
+    COGNITION: <tspan class="telemetry-val">AGENTIC_AI</tspan>
+  </text>
+  
+  <!-- Live Status Light Indicator (Top Right) -->
+  <g transform="translate(710, 52)">
+    <circle cx="0" cy="0" r="5" class="status-light" />
+    <text x="12" y="4" font-family="'Share Tech Mono', monospace" font-size="12" fill="#22C55E" font-weight="bold">ONLINE</text>
+  </g>
+
+  <!-- High-Tech Progress/Scan Line (Top Right corner detail) -->
+  <path d="M 550,55 L 670,55" stroke="#1E293B" stroke-width="4" stroke-linecap="round" />
+  <path d="M 550,55 L 670,55" stroke="url(#cyber-grad)" stroke-width="4" stroke-linecap="round" class="progress-bar" />
+  <text x="550" y="45" font-family="'Share Tech Mono', monospace" font-size="9" fill="#64748B" letter-spacing="1">UPLOADING DATASTREAM...</text>
+</svg>

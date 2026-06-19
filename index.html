@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RaviOS v4.0 | AI Engineer &amp; Product Builder</title>
+  <meta name="description" content="Ravi Anshu's digital workspace: AI Engineer &amp; Product Builder portfolio dashboard inspired by Apple Vision Pro, Linear, and Cyberpunk 2077.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Space+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Background Ambience & Grid -->
+  <div class="space-background"></div>
+  <div class="cyber-grid"></div>
+  <div class="glow-orb orb-cyan"></div>
+  <div class="glow-orb orb-purple"></div>
+
+  <!-- Mouse Cursor Spotlight Layer -->
+  <div id="spotlight"></div>
+
+  <!-- Main Container -->
+  <div class="os-container">
+    
+    <!-- TOP STATUS BAR (Linear x Spatial OS style) -->
+    <header class="os-status-bar">
+      <div class="status-left">
+        <span class="status-logo">◈ RaviOS v4.0</span>
+        <span class="status-indicator"></span>
+        <span class="status-label">SYS: ONLINE</span>
+      </div>
+      <div class="status-center">
+        <span class="status-message">AGENTIC_AI_INITIALIZED_//_SYS_LOG_ACTIVE</span>
+      </div>
+      <div class="status-right">
+        <span class="telemetry-speed">NET: 948 Mbps</span>
+        <span class="telemetry-latency">PING: 14ms</span>
+        <span id="os-clock" class="os-clock">00:00:00</span>
+      </div>
+    </header>
+
+    <!-- MAIN GRID CONTAINER (Bento Grid) -->
+    <main class="os-desktop">
+      <div class="bento-grid">
+
+        <!-- CARD 1: OS OVERVIEW / PROFILE (Col: 1, Row: Span 2) -->
+        <section class="bento-card card-profile" data-tilt>
+          <div class="card-glow-border"></div>
+          <div class="card-header">
+            <span class="header-prefix">// USER_PROFILE</span>
+            <h3>CORE IDENTITY</h3>
+            <span class="tech-id">ID: 19-RAVI</span>
+          </div>
+          <div class="profile-content">
+            <div class="avatar-container">
+              <div class="avatar-ring"></div>
+              <div class="avatar-glitch">
+                <!-- High tech vector avatar shape -->
+                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="50" cy="50" r="45" stroke="url(#avatar-grad)" stroke-width="2" />
+                  <path d="M50 25 C38 25 35 38 35 48 C35 60 50 65 50 65 C50 65 65 60 65 48 C65 38 62 25 50 25 Z" fill="url(#avatar-grad)" opacity="0.8" />
+                  <path d="M22 80 C22 70 35 65 50 65 C65 65 78 70 78 80" stroke="#00F5FF" stroke-width="3" stroke-linecap="round" />
+                  <defs>
+                    <linearGradient id="avatar-grad" x1="0" y1="0" x2="100" y2="100">
+                      <stop offset="0%" stop-color="#00F5FF" />
+                      <stop offset="100%" stop-color="#A855F7" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+            <h2 class="profile-name">Ravi Anshu</h2>
+            <p class="profile-role">AI Engineer &amp; Product Builder</p>
+            <div class="profile-details">
+              <div class="detail-row">
+                <span class="label">LOCATION:</span>
+                <span class="value">Bangalore, India</span>
+              </div>
+              <div class="detail-row">
+                <span class="label">COGNITION:</span>
+                <span class="value cyan-text">Agentic AI × RAG</span>
+              </div>
+              <div class="detail-row">
+                <span class="label">STATUS:</span>
+                <span class="value green-text">🟢 ACTIVE NOW</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CARD 2: INTERACTIVE TERMINAL (Col: Span 2, Row: Span 2) -->
+        <section class="bento-card card-terminal">
+          <div class="card-glow-border"></div>
+          <div class="card-header">
+            <span class="header-prefix">// TELEMETRY_CONSOLE</span>
+            <h3>RAVIOS_CORE_TERMINAL v4.0.2</h3>
+            <div class="terminal-controls">
+              <span class="term-dot close"></span>
+              <span class="term-dot minimize"></span>
+              <span class="term-dot expand"></span>
+            </div>
+          </div>
+          <div class="terminal-body" id="terminal-body">
+            <div class="terminal-output" id="terminal-output">
+              <div class="terminal-line text-system">RaviOS v4.0.2 (TTY-1) - Secure Handshake Established.</div>
+              <div class="terminal-line text-system">Type <span class="cyan-text">'help'</span> to view available operations.</div>
+              <br>
+            </div>
+            <div class="terminal-input-row">
+              <span class="terminal-prompt">ravios@Ravianshu19:~#</span>
+              <input type="text" id="terminal-input" autofocus autocomplete="off" spellcheck="false" placeholder="type a command...">
+            </div>
+          </div>
+        </section>
+
+        <!-- CARD 3: ACTIVE PROCESSES TELEMETRY (Col: 1, Row: Span 1) -->
+        <section class="bento-card card-processes" data-tilt>
+          <div class="card-glow-border"></div>
+          <div class="card-header">
+            <span class="header-prefix">// TELEMETRY_METER</span>
+            <h3>CORE PROCESSES</h3>
+          </div>
+          <div class="processes-list">
+            <div class="process-item">
+              <div class="process-info">
+                <span class="process-name">Teardown AI</span>
+                <span class="process-status blinking">RUNNING</span>
+              </div>
+              <div class="process-bar-container">
+                <div class="process-bar progress-teal" style="width: 82%;"></div>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-info">
+                <span class="process-name">Market Intelligence</span>
+                <span class="process-status blinking">RUNNING</span>
+              </div>
+              <div class="process-bar-container">
+                <div class="process-bar progress-purple" style="width: 68%;"></div>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-info">
+                <span class="process-name">Agentic RAG Engine</span>
+                <span class="process-status">WAITING</span>
+              </div>
+              <div class="process-bar-container">
+                <div class="process-bar progress-slate" style="width: 40%;"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CARD 4: TECH MATRIX (Col: Span 2, Row: Span 1) -->
+        <section class="bento-card card-tech" data-tilt>
+          <div class="card-glow-border"></div>
+          <div class="card-header">
+            <span class="header-prefix">// CAPABILITIES_GRID</span>
+            <h3>TECH MATRIX</h3>
+          </div>
+          <div class="tech-matrix-grid">
+            <div class="tech-cell" data-tech="python">
+              <img src="https://skillicons.dev/icons?i=python" alt="Python">
+              <div class="tech-desc">Python (Core AI)</div>
+            </div>
+            <div class="tech-cell" data-tech="pytorch">
+              <img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch">
+              <div class="tech-desc">PyTorch (ML Models)</div>
+            </div>
+            <div class="tech-cell" data-tech="fastapi">
+              <img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI">
+              <div class="tech-desc">FastAPI (APIs)</div>
+            </div>
+            <div class="tech-cell" data-tech="postgres">
+              <img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL">
+              <div class="tech-desc">Postgres (RDBMS)</div>
+            </div>
+            <div class="tech-cell" data-tech="nextjs">
+              <img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js">
+              <div class="tech-desc">Next.js (Web Apps)</div>
+            </div>
+            <div class="tech-cell" data-tech="ts">
+              <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript">
+              <div class="tech-desc">TypeScript (Logic)</div>
+            </div>
+            <div class="tech-cell" data-tech="docker">
+              <img src="https://skillicons.dev/icons?i=docker" alt="Docker">
+              <div class="tech-desc">Docker (Containers)</div>
+            </div>
+            <div class="tech-cell" data-tech="linux">
+              <img src="https://skillicons.dev/icons?i=linux" alt="Linux">
+              <div class="tech-desc">Linux (OS / Shell)</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CARD 5: Spotify NOW PLAYING (Col: 1, Row: Span 1) -->
+        <section class="bento-card card-spotify" data-tilt>
+          <div class="card-glow-border"></div>
+          <div class="card-header">
+            <span class="header-prefix">// AUDIO_MODULE</span>
+            <h3>NOW PLAYING</h3>
+          </div>
+          <div class="spotify-content">
+            <div class="spotify-track-info">
+              <div class="album-art">
+                <!-- Cyberpunk style record layout -->
+                <div class="record-vinyl spinning">
+                  <div class="record-center"></div>
+                </div>
+              </div>
+              <div class="track-details">
+                <span class="track-title text-scroller">Synthetic Lo-Fi Beats</span>
+                <span class="track-artist">RaviOS Ambient Audio</span>
+              </div>
+            </div>
+            <div class="spotify-visualizer">
+              <div class="vis-bar bar-1"></div>
+              <div class="vis-bar bar-2"></div>
+              <div class="vis-bar bar-3"></div>
+              <div class="vis-bar bar-4"></div>
+              <div class="vis-bar bar-5"></div>
+              <div class="vis-bar bar-6"></div>
+              <div class="vis-bar bar-7"></div>
+              <div class="vis-bar bar-8"></div>
+            </div>
+            <div class="spotify-controls">
+              <button class="ctrl-btn" id="sound-btn">
+                <span class="btn-icon">🔇</span>
+                <span class="btn-text">UNMUTE AUDIO</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- CARD 6: COGNITIVE SYSTEM MAP (Col: Span 2, Row: Span 1) -->
+        <section class="bento-card card-schematics" data-tilt>
+          <div class="card-glow-border"></div>
+          <div class="card-header">
+            <span class="header-prefix">// ARCHITECTURE_DIAGRAM</span>
+            <h3>COGNITIVE DIAGRAM</h3>
+          </div>
+          <div class="schematics-content">
+            <div class="blueprint-terminal">
+              <div class="blueprint-row"><span class="blue-node">[RaviOS Core]</span> ────⚙──── <span class="blue-node">[AI Engineering]</span></div>
+              <div class="blueprint-subrow">├── <span class="blue-leaf">LangChain &amp; LangGraph</span></div>
+              <div class="blueprint-subrow">├── <span class="blue-leaf">Vector DB &amp; Advanced RAG</span></div>
+              <div class="blueprint-subrow">└── <span class="blue-leaf">MCP Orchestrator Servers</span></div>
+              <div class="blueprint-row"><span class="blue-node">[RaviOS Core]</span> ────⚙──── <span class="blue-node">[Product Design]</span></div>
+              <div class="blueprint-subrow">├── <span class="blue-leaf">High-Fidelity Spatial UI</span></div>
+              <div class="blueprint-subrow">└── <span class="blue-leaf">Scalable Backend Nodes</span></div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- FLOATING GLASS DOCK (Apple Vision Pro Spatial UI style) -->
+    <nav class="os-dock">
+      <div class="dock-inner">
+        <a href="#profile" class="dock-item" data-tooltip="Core Identity" id="dock-profile">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </a>
+        <a href="#terminal" class="dock-item" data-tooltip="Interactive Terminal" id="dock-terminal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+        </a>
+        <a href="#tech" class="dock-item" data-tooltip="Tech Matrix" id="dock-tech">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9"/><rect x="14" y="3" width="7" height="5"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="16" width="7" height="5"/></svg>
+        </a>
+        <a href="https://github.com/Ravianshu19" target="_blank" class="dock-item" data-tooltip="GitHub Profile">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </a>
+        <a href="mailto:ravianshu278@gmail.com" class="dock-item" data-tooltip="Initiate Handshake (Contact)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Ambient audio context (synthesized using Web Audio API so we don't need external audio files!) -->
+  <script src="app.js"></script>
+</body>
+</html>
