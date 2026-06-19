@@ -113,43 +113,53 @@ RaviOS v4.0.2 Command Telemetry Directory:
 $ whoami
 ------------------------------------------------
 USER: Ravi Anshu
-ROLE: AI Engineer × Product Builder
+ROLE: AI Backend & ML Engineer
 MOTTO: "Building intelligent systems, one commit at a time."
 ------------------------------------------------
-Currently optimizing agentic systems, distributed memory,
-and retrieval graphs to build robust, scalable AI architectures.
+Currently optimizing dynamic dynamic-pricing queues,
+codebase AST analysis modules, and distributed task workers
+to design scalable machine-learning systems.
 `,
     skills: () => `
 $ query_matrix --capabilities
 ------------------------------------------------
 AI & MACHINE LEARNING
   - Python (Core Engine)
-  - PyTorch (Neural Architectures)
-  - LangChain & LangGraph (Agent Frameworks)
-  - Vector DBs (Milvus, Pinecone, Chroma)
-  - Advanced Retrieval-Augmented Generation (RAG)
+  - PyTorch (Neural Models)
+  - CatBoost / XGBoost / LightGBM (Ensembles)
+  - SHAP (Explainability / Feature Attribution)
+  - Pandas / NumPy / Scikit-Learn (Pipelines)
 
-BACKEND ARCHITECTURE
+BACKEND ARCHITECTURE & DEVTOOLS
   - FastAPI (REST APIs / Microservices)
-  - Node.js (Runtime Orchestration)
+  - Redis (Caching / Message Broker)
+  - Celery (Distributed Job Queues)
   - PostgreSQL / MongoDB (Structured & NoSQL data)
   - Docker & Git (Process isolation & control)
-  - Model Context Protocol (MCP) Integration
+  - Model Context Protocol (MCP) server design
 `,
     projects: () => `
 $ list_active_threads
 ------------------------------------------------
-🟢 Teardown AI
-   - AI agent system to audit codebase architectural structures.
-   - Status: Active compilation.
+🟢 Teardown AI [Active]
+   - LLM agent codebase architecture auditor.
+   - Parses AST structures to construct graph nodes and flags design anti-patterns.
+   - Link: <a href="https://github.com/Ravianshu19/teardown-ai" target="_blank" class="cyan-text">github.com/Ravianshu19/teardown-ai</a>
 
-🟢 Financial Market Intelligence Platform
-   - RAG platform analyzing financial data points.
-   - Status: Active telemetry streaming.
+🟢 PriceIQ [Active]
+   - Dynamic ticket pricing engine processing real-time queues.
+   - Employs CatBoost/XGBoost models with local explainability driven by SHAP.
+   - Link: <a href="https://github.com/Ravianshu19/price-iq" target="_blank" class="cyan-text">github.com/Ravianshu19/price-iq</a>
 
-🟢 Model Context Protocol (MCP) Servers
-   - Custom tools extending LLM agent tool sets.
-   - Status: Production deployment.
+🟢 Vessel Route Optimization [Research]
+   - Maritime route optimization utilizing constraint programming.
+   - Optimizes fuel-efficient speed profiles under delay and weather constraints.
+   - Link: <a href="https://github.com/Ravianshu19/vessel-route-opt" target="_blank" class="cyan-text">github.com/Ravianshu19/vessel-route-opt</a>
+
+🟢 Gridlock 2.0 Demand Predictor [Hackathon Win]
+   - Ensemble model (XGBoost + LightGBM) that won the Gridlock Hackathon.
+   - Improved prediction baseline from 90.9% to 98.77% R² accuracy.
+   - Link: <a href="https://github.com/Ravianshu19/gridlock-hackathon" target="_blank" class="cyan-text">github.com/Ravianshu19/gridlock-hackathon</a>
 `,
     telemetry: () => {
       const cpu = (70 + Math.random() * 20).toFixed(1);
@@ -158,15 +168,15 @@ $ list_active_threads
       return `
 $ systemctl status --diagnostics
 ------------------------------------------------
-COGNITIVE THREAD: RaviOS_v4.0.2_AgenticAI
+COGNITIVE THREAD: RaviOS_v4.0.2_Production
 LATENCY:          ${latency}ms
 CPU_UTILIZATION:  ${cpu}%
 MEMORY_USED:      ${ram} GB / 16.0 GB
 NET_THROUGHPUT:   948 Mbps (ENCRYPTED)
-RAG_CHUNKS:       4,204 indices active
-AGENTIC_TOKENS:   1,402 / sec
+PRICEIQ_QUEUE:    128 tasks in Redis queue
+SOLVER_STATUS:    OR-Tools constraint loop STABLE
 ------------------------------------------------
-ALL DIGITAL CORE SYSTEMS OPERATING SECURELY.
+ALL CORE PORTFOLIO CHANNELS OPERATIVE.
 `;
     },
     connect: () => `

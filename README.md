@@ -10,7 +10,7 @@
 <p align="center">
 <img src="https://komarev.com/normal-badge/?username=Ravianshu19&color=00f5ff&style=flat-square&label=SYSTEM_ACCESSES" alt="Visitor Count" />
 <img src="https://img.shields.io/github/last-commit/Ravianshu19/Ravianshu19?color=a855f7&style=flat-square&label=LAST_COMPILATION" alt="Last Commit" />
-<img src="https://img.shields.io/badge/COGNITION-AGENTIC_AI-00f5ff?style=flat-square&labelColor=1e1b4b" alt="Cognition status" />
+<img src="https://img.shields.io/badge/COGNITION-PRODUCTION_ENGINEERING-00f5ff?style=flat-square&labelColor=1e1b4b" alt="Cognition status" />
 </p>
 <div align="center">
 <img src="./assets/cyberpunk_divider.svg" width="100%" />
@@ -26,43 +26,41 @@ $ whoami
 <b>Ravi Anshu</b>
 AI Engineer × Product Builder
 
-Currently exploring:
-• Generative AI &amp; Agentic Systems
-• Advanced Retrieval-Augmented Generation (RAG)
-• Distributed Systems Architecture &amp; Scalability
-• Model Context Protocol (MCP) Servers &amp; Tools
+Focus areas:
+• Backend Engineering (FastAPI, Celery, Redis production pipelines)
+• ML Inferences &amp; Explainability (CatBoost, XGBoost, SHAP attribution)
+• Agentic AI Systems (LangChain, LangGraph custom tool interfaces)
+• Model Context Protocol (MCP) server development
 </pre>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" style="background-color: #05060c; border: 1px solid #1e293b; border-radius: 8px; padding: 15px;">
-<div align="left" style="font-family: monospace; color: #a855f7; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px;">[MISSION_TELEMETRY // OBJECTIVES]</div>
-<h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ CURRENT MISSION</h3>
-<pre style="font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #94a3b8; background: #030408; padding: 10px; border-radius: 4px; border-left: 3px solid #a855f7; margin: 0; white-space: pre-wrap;">
-<b>Objective:</b>
-Build autonomous AI products used by millions.
-
-<b>Active Threads:</b>
-- Teardown AI
-- Financial Market Intelligence
-- Open Source Agent Tools
-- AI App Orchestrator
-
-<b>System Status:</b> 🟢 STABLE
-</pre>
+<div align="left" style="font-family: monospace; color: #a855f7; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px;">[PORTFOLIO // VERIFIABLE_PROJECTS]</div>
+<h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ FEATURED PROJECTS</h3>
+<div style="font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #94a3b8; background: #030408; padding: 12px; border-radius: 4px; border-left: 3px solid #a855f7; margin-bottom: 8px;">
+<b style="color: #ffffff;">🟢 <a href="https://github.com/Ravianshu19/teardown-ai" style="color: #00F5FF; text-decoration: none;">Teardown AI</a></b><br/>
+Codebase architecture auditing engine. Parses AST structures to construct graph representations and automatically flags structural design anti-patterns.<br/>
+<span style="color: #64748b;">Stack: Python, AST Parsing, Custom Agent Controllers, Graph DB</span>
+</div>
+<div style="font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #94a3b8; background: #030408; padding: 12px; border-radius: 4px; border-left: 3px solid #a855f7;">
+<b style="color: #ffffff;">🟢 <a href="https://github.com/Ravianshu19/price-iq" style="color: #00F5FF; text-decoration: none;">PriceIQ</a></b><br/>
+Dynamic ticket pricing engine processing real-time queues. Employs CatBoost/XGBoost models with local explanations computed on-the-fly via SHAP.<br/>
+<span style="color: #64748b;">Stack: FastAPI, Redis, Celery, CatBoost, SHAP explanations</span>
+</div>
 </td>
 <td width="50%" valign="top" style="background-color: #05060c; border: 1px solid #1e293b; border-radius: 8px; padding: 15px;">
-<div align="left" style="font-family: monospace; color: #a855f7; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px;">[TECH_MATRIX // CAPABILITIES]</div>
-<h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ TECH MATRIX</h3>
-<div align="center" style="padding-top: 5px;">
-<span style="font-family: monospace; font-size: 11px; color: #64748b;">AI &amp; ML</span><br/>
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" alt="AI Stack" style="margin-bottom: 10px;" />
-<br/>
-<span style="font-family: monospace; font-size: 11px; color: #64748b;">BACKEND &amp; DATA</span><br/>
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,postgres,mongodb" alt="Backend Stack" style="margin-bottom: 10px;" />
-<br/>
-<span style="font-family: monospace; font-size: 11px; color: #64748b;">FRONTEND &amp; DEVTOOLS</span><br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,ts,docker,git,linux,vscode" alt="Tools Stack" />
+<div align="left" style="font-family: monospace; color: #a855f7; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px;">[PORTFOLIO // RESEARCH_AND_WINS]</div>
+<h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ SCIENTIFIC &amp; HACKATHONS</h3>
+<div style="font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #94a3b8; background: #030408; padding: 12px; border-radius: 4px; border-left: 3px solid #a855f7; margin-bottom: 8px;">
+<b style="color: #ffffff;">🟢 <a href="https://github.com/Ravianshu19/vessel-route-opt" style="color: #00F5FF; text-decoration: none;">Vessel Route Optimization</a></b><br/>
+Maritime route optimization algorithm. Implements constraint-programming constraints to find fuel-minimizing speed paths under weather and ETA window bounds.<br/>
+<span style="color: #64748b;">Stack: Python, OR-Tools, Geospatial APIs, Pandas, NumPy</span>
+</div>
+<div style="font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #94a3b8; background: #030408; padding: 12px; border-radius: 4px; border-left: 3px solid #a855f7;">
+<b style="color: #ffffff;">🟢 <a href="https://github.com/Ravianshu19/gridlock-hackathon" style="color: #00F5FF; text-decoration: none;">Gridlock 2.0 Demand Predictor</a></b><br/>
+Ensemble model (XGBoost + LightGBM) that won the Gridlock Hackathon by raising the baseline demand prediction model accuracy to **98.77% R²**.<br/>
+<span style="color: #64748b;">Stack: Python, XGBoost, LightGBM, Scikit-Learn, Pandas</span>
 </div>
 </td>
 </tr>
@@ -71,22 +69,12 @@ Build autonomous AI products used by millions.
 <div align="left" style="font-family: monospace; color: #a855f7; font-size: 11px; margin-bottom: 8px; letter-spacing: 1px;">[ANALYTICS // DATAPACKS]</div>
 <h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ GITHUB CORE TELEMETRY</h3>
 <div align="center">
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=Ravianshu19&show_icons=true&title_color=00F5FF&icon_color=00F5FF&text_color=ffffff&bg_color=030712&border_color=A855F7&border_radius=8" alt="GitHub Stats" style="margin-right: 5px; margin-bottom: 10px;" />
-<img height="175" src="https://github-readme-streak-stats.herokuapp.com/?user=Ravianshu19&theme=dark&background=030712&ring=00F5FF&fire=00F5FF&currStreakNum=A855F7&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&border=A855F7&border_radius=8" alt="GitHub Streak" style="margin-bottom: 10px;" />
-</div>
-<div align="center">
-<img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ravianshu19&layout=compact&title_color=00F5FF&icon_color=00F5FF&text_color=ffffff&bg_color=030712&border_color=A855F7&border_radius=8" alt="Top Languages" />
+<img height="185" src="https://github-readme-stats.vercel.app/api?username=Ravianshu19&show_icons=true&title_color=00F5FF&icon_color=00F5FF&text_color=ffffff&bg_color=030712&border_color=A855F7&border_radius=8" alt="GitHub Stats" style="margin-right: 15px; margin-bottom: 10px;" />
+<img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ravianshu19&layout=compact&title_color=00F5FF&icon_color=00F5FF&text_color=ffffff&bg_color=030712&border_color=A855F7&border_radius=8" alt="Top Languages" style="margin-bottom: 10px;" />
 </div>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top" style="background-color: #05060c; border: 1px solid #1e293b; border-radius: 8px; padding: 15px;">
-<div align="left" style="font-family: monospace; color: #a855f7; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px;">[ACTIVITY // HEATMAP]</div>
-<h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ METRIC CHART</h3>
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ravianshu19&bg_color=030712&color=00F5FF&line=A855F7&point=ffffff&area=true&hide_border=false&border_color=A855F7&border_radius=8" width="100%" alt="Activity Graph" />
-</div>
-</td>
 <td width="50%" valign="top" style="background-color: #05060c; border: 1px solid #1e293b; border-radius: 8px; padding: 15px;">
 <div align="left" style="font-family: monospace; color: #a855f7; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px;">[GRID_INTRUSION // ANIMATED]</div>
 <h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ CONTRIBUTION SNAKE</h3>
@@ -94,30 +82,21 @@ Build autonomous AI products used by millions.
 <img src="https://raw.githubusercontent.com/Ravianshu19/Ravianshu19/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%" />
 </div>
 </td>
-</tr>
-<tr>
-<td colspan="2" width="100%" style="background-color: #05060c; border: 1px solid #1e293b; border-radius: 8px; padding: 15px;">
-<div align="left" style="font-family: monospace; color: #a855f7; font-size: 11px; margin-bottom: 8px; letter-spacing: 1px;">[MILESTONES // ACHIEVEMENT_UNLOCKED]</div>
-<h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ TROPHIES &amp; CAMPAIGN PROGRESS</h3>
-<div align="center" style="margin-bottom: 15px;">
-<img src="https://github-profile-trophy.vercel.app/?username=Ravianshu19&theme=outrun&no-bg=true&no-frame=false&margin-w=10&margin-h=10" width="100%" alt="GitHub Trophies" />
+<td width="50%" valign="top" style="background-color: #05060c; border: 1px solid #1e293b; border-radius: 8px; padding: 15px;">
+<div align="left" style="font-family: monospace; color: #a855f7; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px;">[VERIFIABLE_MILESTONES // HISTORIC]</div>
+<h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ VERIFIED CREDENTIALS</h3>
+<div style="font-family: 'Share Tech Mono', monospace; font-size: 11px; color: #94a3b8; background: #030408; padding: 10px; border-radius: 4px; border-left: 3px solid #00F5FF; margin-bottom: 8px;">
+🏆 <b style="color: #ffffff;">Gridlock Hackathon 2.0 Win</b><br/>
+Engineered the demand prediction model, scaling baseline R² performance from 90.9% to 98.77% via custom hyperparameter-tuned ensembles.
 </div>
-<table width="100%" border="0" style="border: none; font-family: 'Share Tech Mono', monospace; text-align: center; color: #cbd5e1; font-size: 13px;">
-<tr>
-<td width="33%" style="padding: 10px; background-color: #030408; border-radius: 6px; border: 1px solid #1e293b;">
-<div style="font-size: 18px; color: #00f5ff;">🏆 100+</div>
-<div>Hackathons Joined</div>
-</td>
-<td width="33%" style="padding: 10px; background-color: #030408; border-radius: 6px; border: 1px solid #1e293b;">
-<div style="font-size: 18px; color: #a855f7;">🥇 5</div>
-<div>Hackathon Victories</div>
-</td>
-<td width="33%" style="padding: 10px; background-color: #030408; border-radius: 6px; border: 1px solid #1e293b;">
-<div style="font-size: 18px; color: #00f5ff;">🥈 35+</div>
-<div>Kaggle Competitions</div>
-</td>
-</tr>
-</table>
+<div style="font-family: 'Share Tech Mono', monospace; font-size: 11px; color: #94a3b8; background: #030408; padding: 10px; border-radius: 4px; border-left: 3px solid #a855f7; margin-bottom: 8px;">
+🥈 <b style="color: #ffffff;">Kaggle Classic: Titanic Ensemble</b><br/>
+Achieved a Top 2% ranking on leaderboards utilizing custom feature extraction pipelines combined with XGBoost and random forests.
+</div>
+<div style="font-family: 'Share Tech Mono', monospace; font-size: 11px; color: #94a3b8; background: #030408; padding: 10px; border-radius: 4px; border-left: 3px solid #00F5FF;">
+🥉 <b style="color: #ffffff;">Kaggle: Predict Future Sales</b><br/>
+Placed in the Top 5% of leaderboards by developing robust rolling time-series features modeled through CatBoost regressions.
+</div>
 </td>
 </tr>
 <tr>
@@ -134,56 +113,49 @@ Build autonomous AI products used by millions.
 </div>
 </td>
 <td width="50%" valign="top" style="background-color: #05060c; border: 1px solid #1e293b; border-radius: 8px; padding: 15px;">
-<div align="left" style="font-family: monospace; color: #a855f7; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px;">[SCHEMATICS // SYSTEMS_MAP]</div>
-<h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ PROCESS_ARCHITECTURE</h3>
-<pre style="font-family: 'Share Tech Mono', monospace; font-size: 11px; color: #94a3b8; background: #030408; padding: 10px; border-radius: 4px; border-left: 3px solid #00F5FF; margin: 0; white-space: pre;">
-root: RaviOS
-├── AI Engineering
-│   ├── LangChain &amp; LangGraph
-│   └── Multi-Agent Systems
-├── Machine Learning
-│   ├── PyTorch Core
-│   └── Computer Vision
-└── Backend Systems
-    ├── FastAPI &amp; API Design
-    └── Distributed Databases
-</pre>
+<div align="left" style="font-family: monospace; color: #a855f7; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px;">[TECH_MATRIX // CAPABILITIES]</div>
+<h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ TECH MATRIX</h3>
+<div align="center" style="padding-top: 5px;">
+<span style="font-family: monospace; font-size: 11px; color: #64748b;">AI &amp; ML</span><br/>
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" alt="AI Stack" style="margin-bottom: 10px;" />
+<br/>
+<span style="font-family: monospace; font-size: 11px; color: #64748b;">BACKEND &amp; DATA</span><br/>
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,postgres,mongodb" alt="Backend Stack" style="margin-bottom: 10px;" />
+<br/>
+<span style="font-family: monospace; font-size: 11px; color: #64748b;">FRONTEND &amp; DEVTOOLS</span><br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,ts,docker,git,linux,vscode" alt="Tools Stack" />
+</div>
 </td>
 </tr>
 </table>
 <div align="center" style="margin-top: 15px; margin-bottom: 15px;">
 <img src="./assets/cyberpunk_divider.svg" width="100%" />
 </div>
-<!-- COLLAPSIBLE DETAILED BLUEPRINT (MERMAID) -->
+<!-- COLLAPSIBLE SYSTEM SCHEMATICS (MERMAID) -->
 <details style="background-color: #05060c; border: 1px solid #1e293b; border-radius: 8px; padding: 15px; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
 <summary style="font-family: 'Share Tech Mono', monospace; color: #00F5FF; cursor: pointer; font-size: 14px; font-weight: bold; outline: none; list-style: none;">
-<b>▼ VIEW DEEP DIGITAL BLUEPRINT (MERMAID MAP)</b>
+<b>▼ VIEW PRICEIQ PRODUCTION PIPELINE (ARCHITECTURE SCHEMATIC)</b>
 </summary>
 <div style="margin-top: 15px;">
 
 ```mermaid
-mindmap
-  root((RaviOS))
-    AI Engineering
-      LangChain
-      LangGraph
-      RAG
-      LLMs
-
-    Machine Learning
-      PyTorch
-      Transformers
-      Computer Vision
-
-    Backend
-      FastAPI
-      APIs
-      Databases
-
-    Product Building
-      Startups
-      UX
-      Systems
+graph TD
+    Client[Client Request] -->|REST / HTTPS| API[FastAPI Gateway]
+    API -->|Enqueue Inference Job| Redis[(Redis Broker)]
+    Redis -->|Consume Task| Celery[Celery Worker Cluster]
+    Celery -->|Execute Model| Model[CatBoost Inference Model]
+    Model -->|Generate Explainability Metrics| SHAP[SHAP Explanation Engine]
+    SHAP -->|Write Result| Backend[(Postgres Database)]
+    Celery -->|Resolve Task Status| Redis
+    API -->|Poll Status / Return JSON| Client
+    
+    style Client fill:#0f172a,stroke:#94a3b8,stroke-width:2px,color:#fff
+    style API fill:#0A0B10,stroke:#00F5FF,stroke-width:2px,color:#fff
+    style Redis fill:#0A0B10,stroke:#A855F7,stroke-width:2px,color:#fff
+    style Celery fill:#0A0B10,stroke:#00F5FF,stroke-width:2px,color:#fff
+    style Model fill:#0A0B10,stroke:#22C55E,stroke-width:2px,color:#fff
+    style SHAP fill:#0A0B10,stroke:#A855F7,stroke-width:2px,color:#fff
+    style Backend fill:#0f172a,stroke:#94a3b8,stroke-width:2px,color:#fff
 ```
 
 </div>

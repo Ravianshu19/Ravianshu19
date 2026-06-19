@@ -75,7 +75,7 @@
               </div>
             </div>
             <h2 class="profile-name">Ravi Anshu</h2>
-            <p class="profile-role">AI Engineer &amp; Product Builder</p>
+            <p class="profile-role">AI Backend &amp; ML Engineer</p>
             <div class="profile-details">
               <div class="detail-row">
                 <span class="label">LOCATION:</span>
@@ -83,7 +83,7 @@
               </div>
               <div class="detail-row">
                 <span class="label">COGNITION:</span>
-                <span class="value cyan-text">Agentic AI × RAG</span>
+                <span class="value cyan-text">FastAPI • Redis • CatBoost</span>
               </div>
               <div class="detail-row">
                 <span class="label">STATUS:</span>
@@ -128,7 +128,7 @@
           <div class="processes-list">
             <div class="process-item">
               <div class="process-info">
-                <span class="process-name">Teardown AI</span>
+                <span class="process-name">PriceIQ Inference Queue</span>
                 <span class="process-status blinking">RUNNING</span>
               </div>
               <div class="process-bar-container">
@@ -137,7 +137,7 @@
             </div>
             <div class="process-item">
               <div class="process-info">
-                <span class="process-name">Market Intelligence</span>
+                <span class="process-name">Teardown AST Parser</span>
                 <span class="process-status blinking">RUNNING</span>
               </div>
               <div class="process-bar-container">
@@ -146,7 +146,7 @@
             </div>
             <div class="process-item">
               <div class="process-info">
-                <span class="process-name">Agentic RAG Engine</span>
+                <span class="process-name">Constraint Solver Loop</span>
                 <span class="process-status">WAITING</span>
               </div>
               <div class="process-bar-container">
@@ -242,18 +242,17 @@
         <section class="bento-card card-schematics" data-tilt>
           <div class="card-glow-border"></div>
           <div class="card-header">
-            <span class="header-prefix">// ARCHITECTURE_DIAGRAM</span>
-            <h3>COGNITIVE DIAGRAM</h3>
+            <span class="header-prefix">// PIPELINE_DIAGRAM</span>
+            <h3>PRICEIQ SYSTEM PIPELINE</h3>
           </div>
           <div class="schematics-content">
             <div class="blueprint-terminal">
-              <div class="blueprint-row"><span class="blue-node">[RaviOS Core]</span> ────⚙──── <span class="blue-node">[AI Engineering]</span></div>
-              <div class="blueprint-subrow">├── <span class="blue-leaf">LangChain &amp; LangGraph</span></div>
-              <div class="blueprint-subrow">├── <span class="blue-leaf">Vector DB &amp; Advanced RAG</span></div>
-              <div class="blueprint-subrow">└── <span class="blue-leaf">MCP Orchestrator Servers</span></div>
-              <div class="blueprint-row"><span class="blue-node">[RaviOS Core]</span> ────⚙──── <span class="blue-node">[Product Design]</span></div>
-              <div class="blueprint-subrow">├── <span class="blue-leaf">High-Fidelity Spatial UI</span></div>
-              <div class="blueprint-subrow">└── <span class="blue-leaf">Scalable Backend Nodes</span></div>
+              <div class="blueprint-row"><span class="blue-node">[Client Request]</span> ───⚙─── <span class="blue-node">[FastAPI Gateway]</span></div>
+              <div class="blueprint-subrow">└── <span class="blue-leaf">Enqueue Inference Task</span> ───⚙─── <span class="blue-node">[Redis Broker]</span></div>
+              <div class="blueprint-subrow" style="margin-left: 40px;">└── <span class="blue-leaf">Consume Task</span> ───⚙─── <span class="blue-node">[Celery Worker]</span></div>
+              <div class="blueprint-subrow" style="margin-left: 60px;">├── <span class="blue-leaf">Execute CatBoost ML Model</span></div>
+              <div class="blueprint-subrow" style="margin-left: 60px;">├── <span class="blue-leaf">Compute SHAP attributions on-the-fly</span></div>
+              <div class="blueprint-subrow" style="margin-left: 60px;">└── <span class="blue-leaf">Write record to Postgres DB</span></div>
             </div>
           </div>
         </section>
