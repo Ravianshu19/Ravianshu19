@@ -23,33 +23,6 @@
         fill: #00F5FF;
         font-weight: bold;
       }
-      
-      /* Animations */
-      @keyframes pulse {
-        0%, 100% { opacity: 0.4; }
-        50% { opacity: 1; }
-      }
-      @keyframes blink {
-        0%, 100% { opacity: 0; }
-        50% { opacity: 1; }
-      }
-      @keyframes status-pulse {
-        0%, 100% { opacity: 0.6; }
-        50% { opacity: 1; }
-      }
-      @keyframes progress-slide {
-        0% { stroke-dashoffset: 240; }
-        50% { stroke-dashoffset: 0; }
-        100% { stroke-dashoffset: -240; }
-      }
-      
-      .pulsing { animation: pulse 3s infinite ease-in-out; }
-      .blinking { animation: blink 1s infinite steps(2); }
-      .status-light { animation: status-pulse 2s infinite ease-in-out; fill: #22C55E; }
-      .progress-bar {
-        stroke-dasharray: 240;
-        animation: progress-slide 8s infinite linear;
-      }
     </style>
 
     <!-- Neon Glow Filters -->
@@ -116,7 +89,9 @@
   <text x="35" y="98" class="title" filter="url(#cyan-glow)">RaviOS v4.0</text>
   
   <!-- Terminal Prompt Cursor Simulator -->
-  <rect x="200" y="78" width="12" height="22" fill="#00F5FF" class="blinking" filter="url(#cyan-glow)" />
+  <rect x="200" y="78" width="12" height="22" fill="#00F5FF" filter="url(#cyan-glow)">
+    <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1.2s" repeatCount="indefinite" />
+  </rect>
 
   <!-- Divider Line -->
   <line x1="35" y1="112" x2="765" y2="112" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
@@ -125,18 +100,22 @@
   <text x="35" y="130" class="telemetry">
     SYS_STATUS: <tspan class="telemetry-val">STABLE</tspan> | 
     CORE: <tspan class="telemetry-val">AI_ENGINE_v4</tspan> | 
-    LOC: <tspan class="telemetry-val">BANGALORE.IN</tspan> | 
+    LOC: <tspan class="telemetry-val">CHENNAI.IN</tspan> | 
     COGNITION: <tspan class="telemetry-val">AGENTIC_AI</tspan>
   </text>
   
   <!-- Live Status Light Indicator (Top Right) -->
   <g transform="translate(710, 52)">
-    <circle cx="0" cy="0" r="5" class="status-light" filter="url(#green-glow)" />
+    <circle cx="0" cy="0" r="5" fill="#22C55E" filter="url(#green-glow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
     <text x="12" y="4" font-family="'Share Tech Mono', monospace" font-size="12" fill="#22C55E" font-weight="bold">ONLINE</text>
   </g>
 
   <!-- High-Tech Progress/Scan Line (Top Right corner detail) -->
   <path d="M 550,55 L 670,55" stroke="#1E293B" stroke-width="4" stroke-linecap="round" />
-  <path d="M 550,55 L 670,55" stroke="url(#cyber-grad)" stroke-width="4" stroke-linecap="round" class="progress-bar" />
+  <path d="M 550,55 L 670,55" stroke="url(#cyber-grad)" stroke-width="4" stroke-linecap="round" stroke-dasharray="240">
+    <animate attributeName="stroke-dashoffset" values="240;-240" dur="8s" repeatCount="indefinite" />
+  </path>
   <text x="550" y="45" font-family="'Share Tech Mono', monospace" font-size="9" fill="#64748B" letter-spacing="1">UPLOADING DATASTREAM...</text>
 </svg>
