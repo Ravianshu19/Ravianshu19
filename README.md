@@ -8,7 +8,7 @@
 </a>
 </p>
 <p align="center">
-<img src="https://komarev.com/normal-badge/?username=Ravianshu19&color=00f5ff&style=flat-square&label=SYSTEM_ACCESSES" alt="Visitor Count" />
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRavianshu19%2FRavianshu19&amp;count_bg=%2300F5FF&amp;title_bg=%231E1B4B&amp;icon=&amp;icon_color=%23E7E7E7&amp;title=SYSTEM_ACCESSES&amp;edge_flat=true" alt="Visitor Count" />
 <img src="https://img.shields.io/github/last-commit/Ravianshu19/Ravianshu19?color=a855f7&style=flat-square&label=LAST_COMPILATION" alt="Last Commit" />
 <img src="https://img.shields.io/badge/COGNITION-PRODUCTION_ENGINEERING-00f5ff?style=flat-square&labelColor=1e1b4b" alt="Cognition status" />
 </p>
@@ -101,7 +101,7 @@ Placed in the Top 5% of leaderboards by developing robust rolling time-series fe
 <h3 style="margin-top: 0; color: #00F5FF; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">◇ NOW PLAYING</h3>
 <div align="center" style="margin-top: 10px; margin-bottom: 10px;">
 <a href="https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn" target="_blank">
-<img src="https://spotify-github-profile.vercel.app/api/view?uid=ravianshu19&cover_image=true&theme=dark&bar_color=00F5FF&key_color=A855F7" alt="Spotify Live Status" width="100%" />
+<img src="https://img.shields.io/badge/COGNITIVE_FUEL-LO_FI_BEATS-A855F7?style=for-the-badge&amp;logo=spotify&amp;logoColor=white&amp;labelColor=1e1b4b" alt="Spotify Playlist" width="100%" />
 </a>
 </div>
 <div align="center" style="font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #94a3b8;">
