@@ -1,92 +1,113 @@
-<!-- RAVIOS v4.0 OPERATING SYSTEM GRAPHICAL PORTAL -->
+<!-- RAVIOS v4.0 — GITHUB PROFILE -->
 <div align="center">
 
 <img src="assets/ravios_header_v5.svg" width="100%" alt="RaviOS v4.0" />
 
+<br/>
+
+[![Enter Workspace](https://img.shields.io/badge/ENTER_DIGITAL_WORKSPACE-RaviOS_v4.0-00F5FF?style=for-the-badge&logo=virtualbox&logoColor=000000&labelColor=A855F7)](https://ravianshu19.github.io/Ravianshu19/)
+
+<br/>
+
+![Visitor Count](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=SYSTEM_ACCESSES&query=%24.count&url=https%3A%2F%2Fapi.counterapi.dev%2Fv1%2Fravianshu19%2Fprofile%2Fup&color=00F5FF&labelColor=1e1b4b)
+![Last Commit](https://img.shields.io/github/last-commit/Ravianshu19/Ravianshu19?style=for-the-badge&label=LAST_COMPILATION&color=A855F7&labelColor=1e1b4b)
+![Status](https://img.shields.io/badge/COGNITION-PRODUCTION_ENGINEERING-00F5FF?style=for-the-badge&labelColor=1e1b4b)
+
 </div>
 
-<p align="center">
-<a href="https://ravianshu19.github.io/Ravianshu19/">
-<img src="https://img.shields.io/badge/ENTER_DIGITAL_WORKSPACE-RaviOS_v4.0-00F5FF?style=for-the-badge&logo=virtualbox&logoColor=black&labelColor=A855F7" alt="Enter Live Workspace" />
-</a>
-</p>
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=Ravianshu19&color=00f5ff&style=flat-square&label=SYSTEM_ACCESSES" alt="Visitor Count" />
-<img src="https://img.shields.io/github/last-commit/Ravianshu19/Ravianshu19?color=a855f7&style=flat-square&label=LAST_COMPILATION" alt="Last Commit" />
-<img src="https://img.shields.io/badge/COGNITION-PRODUCTION_ENGINEERING-00f5ff?style=flat-square&labelColor=1e1b4b" alt="Cognition status" />
-</p>
-
-<div align="center">
+<br/>
 
 <img src="assets/cyberpunk_divider_v5.svg" width="100%" />
 
-</div>
+<br/>
 
-<!-- ABOUT ME SECTION -->
-### ◇ ABOUT_ME // WHOAMI
+## ◇ ABOUT_ME // WHOAMI
 
 ```bash
 > whoami
-Ravi Anshu
-AI Engineer × Product Builder
+Ravi Anshu — AI Engineer × Product Builder
 
 Focus areas:
-• Backend Engineering (FastAPI, Celery, Redis production pipelines)
-• ML Inferences & Explainability (CatBoost, XGBoost, SHAP attribution)
-• Agentic AI Systems (LangChain, LangGraph custom tool interfaces)
-• Model Context Protocol (MCP) server development
+• Backend Engineering      → FastAPI, Celery, Redis production pipelines
+• ML Inference & XAI       → CatBoost, XGBoost, SHAP attribution
+• Agentic AI Systems       → LangChain, LangGraph custom tool interfaces
+• Protocol Engineering     → Model Context Protocol (MCP) servers
 ```
 
-<!-- TWO COLUMN GRID: PROJECTS -->
+<br/>
+
+<img src="assets/cyberpunk_divider_v5.svg" width="100%" />
+
+<br/>
+
+## ◇ ACTIVE_CORE_SYSTEMS
+
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### ◇ ACTIVE CORE SYSTEMS
+**🟢 [Agentic Research Workflow](https://github.com/Ravianshu19/AI-ML/tree/main/01-Agentic-Research-Workflow)**
 
-* 🟢 **[Agentic Research Workflow](https://github.com/Ravianshu19/AI-ML/tree/main/01-Agentic-Research-Workflow)**
-  Autonomous AI multi-agent research workflow built with LangGraph. Coordinates planning, web scraping, and content synthesis to generate verified reports.
-  _Stack: Python, LangGraph, Tavily Search, Gemini API, Streamlit_
+Autonomous multi-agent research workflow built with LangGraph — coordinates planning, web scraping, and synthesis into verified reports.
 
-* 🟢 **[Financial Market Intelligence](https://github.com/Ravianshu19/Financial-Market-Intelligence)**
-  Real-time financial data pipeline and sentiment analysis aggregator. Ingests news streams, evaluates sentiments on tickers, and maps financial indicators.
-  _Stack: FastAPI, PostgreSQL, Redis, Celery, Transformer Models, Pandas_
+`Python` `LangGraph` `Tavily` `Gemini API` `Streamlit`
 
 </td>
 <td width="50%" valign="top">
 
-### ◇ DATA SCIENCE & ANALYTICS
+**🟢 [Financial Market Intelligence](https://github.com/Ravianshu19/Financial-Market-Intelligence)**
 
-* 🟢 **[Electric Vehicles Market Analysis](https://github.com/Ravianshu19/Data-Science/tree/main/Electric-Vehicles-Market-Analysis)**
-  Large-scale geospatial data analysis and market intelligence dashboard. Maps EV adoption growth profiles, utility grid impacts, battery metrics, and registration patterns using public datasets.
-  _Stack: Jupyter Notebooks, Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn_
+Real-time financial data pipeline and sentiment aggregator — ingests news streams and maps sentiment to tickers and indicators.
+
+`FastAPI` `PostgreSQL` `Redis` `Celery` `Transformers`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🟢 [Electric Vehicles Market Analysis](https://github.com/Ravianshu19/Data-Science/tree/main/Electric-Vehicles-Market-Analysis)**
+
+Large-scale geospatial analysis mapping EV adoption, grid impact, and battery metrics from public datasets.
+
+`Jupyter` `Pandas` `NumPy` `Matplotlib` `Scikit-Learn`
+
+</td>
+<td width="50%" valign="top">
+
+**🟠 More systems compiling...**
+
+Additional modules in active development — check the pinned repos below for the latest builds.
+
+[`→ View all repos`](https://github.com/Ravianshu19?tab=repositories)
 
 </td>
 </tr>
 </table>
 
-<div align="center">
+<br/>
 
 <img src="assets/cyberpunk_divider_v5.svg" width="100%" />
 
-</div>
+<br/>
 
-<!-- TELEMETRY STATS -->
-### ◇ GITHUB CORE TELEMETRY
+## ◇ GITHUB_CORE_TELEMETRY
 
 <div align="center">
 
-<img height="185" src="https://github-readme-stats.vercel.app/api?username=Ravianshu19&show_icons=true&title_color=00F5FF&icon_color=00F5FF&text_color=ffffff&bg_color=030712&border_color=A855F7&border_radius=8" alt="GitHub Stats" />
-<img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ravianshu19&layout=compact&title_color=00F5FF&icon_color=00F5FF&text_color=ffffff&bg_color=030712&border_color=A855F7&border_radius=8" alt="Top Languages" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Ravianshu19&show_icons=true&title_color=00F5FF&icon_color=A855F7&text_color=cbd5e1&bg_color=030712&border_color=A855F7&border_radius=10&hide_border=false" alt="GitHub Stats" />
 
 </div>
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+<br/>
 
-### ◇ CONTRIBUTION SNAKE
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ravianshu19&layout=compact&title_color=00F5FF&icon_color=A855F7&text_color=cbd5e1&bg_color=030712&border_color=A855F7&border_radius=10&hide_border=false" alt="Top Languages" />
+
+</div>
+
+<br/>
 
 <div align="center">
 
@@ -95,74 +116,74 @@ Focus areas:
 
 </div>
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
-### ◇ VERIFIED CREDENTIALS
+<img src="assets/cyberpunk_divider_v5.svg" width="100%" />
 
-* 🏆 **Gridlock Hackathon 2.0 Win**
-  Engineered the demand prediction model, scaling baseline R² performance from 90.9% to 98.77% via custom hyperparameter-tuned ensembles.
+<br/>
 
-* 🥈 **Kaggle Classic: Titanic Ensemble**
-  Achieved a Top 2% ranking on leaderboards utilizing custom feature extraction pipelines combined with XGBoost and random forests.
+## ◇ VERIFIED_CREDENTIALS
 
-* 🥉 **Kaggle: Predict Future Sales**
-  Placed in the Top 5% of leaderboards by developing robust rolling time-series features modeled through CatBoost regressions.
+| | Achievement | Result |
+|:---:|:---|:---|
+| 🏆 | **Gridlock Hackathon 2.0 — Winner** | Demand-prediction model scaled from 90.9% → 98.77% R² via tuned ensembles |
+| 🥈 | **Kaggle: Titanic Ensemble** | Top 2% leaderboard — custom feature pipeline + XGBoost + random forests |
+| 🥉 | **Kaggle: Predict Future Sales** | Top 5% leaderboard — rolling time-series features + CatBoost regression |
 
-</td>
-</tr>
-</table>
+<br/>
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+<img src="assets/cyberpunk_divider_v5.svg" width="100%" />
 
-### ◇ NOW PLAYING
+<br/>
 
-<div align="center">
-
-<a href="https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn" target="_blank">
-<img src="https://img.shields.io/badge/COGNITIVE_FUEL-LO_FI_BEATS-A855F7?style=for-the-badge&logo=spotify&logoColor=white&labelColor=1e1b4b" alt="Spotify Playlist" width="100%" />
-</a>
-
-🎧 Coding + Coffee + Lo-Fi
-
-</div>
-
-</td>
-<td width="50%" valign="top">
-
-### ◇ TECH MATRIX
+## ◇ TECH_MATRIX
 
 <div align="center">
 
 **AI & ML**
+<br/>
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow&theme=dark" alt="AI Stack" />
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" alt="AI Stack" />
+<br/><br/>
 
 **BACKEND & DATA**
+<br/>
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,postgres,mongodb,redis&theme=dark" alt="Backend Stack" />
 
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,postgres,mongodb" alt="Backend Stack" />
+<br/><br/>
 
 **FRONTEND & DEVTOOLS**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,ts,docker,git,linux,vscode" alt="Tools Stack" />
+<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,ts,docker,git,linux,vscode&theme=dark" alt="Tools Stack" />
 
 </div>
 
-</td>
-</tr>
-</table>
-
-<div align="center">
+<br/>
 
 <img src="assets/cyberpunk_divider_v5.svg" width="100%" />
 
+<br/>
+
+## ◇ NOW_PLAYING
+
+<div align="center">
+
+[![Spotify](https://img.shields.io/badge/COGNITIVE_FUEL-LO_FI_BEATS-A855F7?style=for-the-badge&logo=spotify&logoColor=000000&labelColor=1e1b4b)](https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn)
+
+🎧 *Coding + Coffee + Lo-Fi*
+
 </div>
 
-<!-- COLLAPSIBLE SYSTEM SCHEMATICS -->
+<br/>
+
+<img src="assets/cyberpunk_divider_v5.svg" width="100%" />
+
+<br/>
+
 <details>
-<summary><strong>▼ VIEW AGENTIC RESEARCH WORKFLOW (SYSTEM SCHEMATIC)</strong></summary>
+<summary><strong>▼ SYSTEM_SCHEMATIC — Agentic Research Workflow</strong></summary>
+
+<br/>
 
 ```mermaid
 graph TD
@@ -171,7 +192,7 @@ graph TD
     Search -->|Retrieve web results| Scraper[Web Content Scraper]
     Scraper -->|Extract raw text| Synthesis[Research Synthesis Agent]
     Synthesis -->|Construct initial draft| Verifier[Validation & Fact-Checker Agent]
-    Verifier -->|Iterative review / Fixes| Planner
+    Verifier -->|Iterative review / fixes| Planner
     Verifier -->|Final approved report| Client[Markdown Document Output]
 
     style User fill:#0f172a,stroke:#94a3b8,stroke-width:2px,color:#fff
@@ -185,32 +206,23 @@ graph TD
 
 </details>
 
-<div align="center">
+<br/>
 
 <img src="assets/cyberpunk_divider_v5.svg" width="100%" />
 
-</div>
-
-<!-- CONNECT SECTIONS -->
-<h3 align="center">◇ CONNECT // INITIATE_HANDSHAKE</h3>
-
-<div align="center">
-
-<a href="mailto:ravianshu278@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-ravianshu278%40gmail.com-00F5FF?style=for-the-badge&logo=gmail&logoColor=black&labelColor=1e1b4b" alt="Gmail" />
-</a>
-<a href="https://github.com/Ravianshu19">
-<img src="https://img.shields.io/badge/GitHub-Ravianshu19-A855F7?style=for-the-badge&logo=github&logoColor=white&labelColor=1e1b4b" alt="GitHub" />
-</a>
-
-</div>
-
 <br/>
 
+## ◇ CONNECT // INITIATE_HANDSHAKE
+
 <div align="center">
 
-#### "Building intelligent systems, one commit at a time."
+[![Gmail](https://img.shields.io/badge/Gmail-ravianshu278%40gmail.com-00F5FF?style=for-the-badge&logo=gmail&logoColor=000000&labelColor=1e1b4b)](mailto:ravianshu278@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Ravianshu19-A855F7?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=1e1b4b)](https://github.com/Ravianshu19)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=030712&customColorList=24,30,36&bg_color=00000000" alt="Footer wave" />
+<br/><br/>
+
+**"Building intelligent systems, one commit at a time."**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=030712&customColorList=24,30,36&bg_color=00000000" alt="Footer wave" width="100%" />
 
 </div>
