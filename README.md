@@ -3,25 +3,25 @@
 
 <img src="assets/ravios_header_v5.svg" width="100%" alt="RaviOS v4.0" />
 
-<br/>
+<br/><br/>
 
 [![Enter Workspace](https://img.shields.io/badge/ENTER_DIGITAL_WORKSPACE-RaviOS_v4.0-00F5FF?style=for-the-badge&logo=virtualbox&logoColor=000000&labelColor=A855F7)](https://ravianshu19.github.io/Ravianshu19/)
 
-<br/>
+<br/><br/>
 
-![Visitor Count](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=SYSTEM_ACCESSES&query=%24.count&url=https%3A%2F%2Fapi.countapi.xyz%2Fhit%2Fravianshu19%2Fprofile&color=00F5FF&labelColor=1e1b4b)
+![Visitors](https://komarev.com/ghpvc/?username=Ravianshu19&color=00F5FF&style=for-the-badge&label=SYSTEM_ACCESSES)
 ![Last Commit](https://img.shields.io/github/last-commit/Ravianshu19/Ravianshu19?style=for-the-badge&label=LAST_COMPILATION&color=A855F7&labelColor=1e1b4b)
-![Status](https://img.shields.io/badge/COGNITION-PRODUCTION_ENGINEERING-00F5FF?style=for-the-badge&labelColor=1e1b4b)
+![Status](https://img.shields.io/badge/COGNITION-AGENTIC__AI-00F5FF?style=for-the-badge&labelColor=1e1b4b)
 
 </div>
 
-<br/>
+---
 
 <img src="assets/cyberpunk_divider_v5.svg" width="100%" />
 
-<br/>
+---
 
-## ◇ ABOUT_ME // WHOAMI
+## ◇ ABOUT\_ME // WHOAMI
 
 ```bash
 > whoami
@@ -34,13 +34,13 @@ Focus areas:
 • Protocol Engineering     → Model Context Protocol (MCP) servers
 ```
 
-<br/>
+---
 
 <img src="assets/cyberpunk_divider_v5.svg" width="100%" />
 
-<br/>
+---
 
-## ◇ ACTIVE_CORE_SYSTEMS
+## ◇ ACTIVE\_CORE\_SYSTEMS
 
 <table width="100%">
 <tr>
@@ -77,7 +77,7 @@ Large-scale geospatial analysis mapping EV adoption, grid impact, and battery me
 
 **🟠 More systems compiling...**
 
-Additional modules in active development — check the pinned repos below for the latest builds.
+Additional modules in active development — check pinned repos for the latest builds.
 
 [`→ View all repos`](https://github.com/Ravianshu19?tab=repositories)
 
@@ -85,17 +85,17 @@ Additional modules in active development — check the pinned repos below for th
 </tr>
 </table>
 
-<br/>
+---
 
 <img src="assets/cyberpunk_divider_v5.svg" width="100%" />
 
-<br/>
+---
 
-## ◇ GITHUB_CORE_TELEMETRY
+## ◇ GITHUB\_CORE\_TELEMETRY
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Ravianshu19&show_icons=true&title_color=00F5FF&icon_color=A855F7&text_color=cbd5e1&bg_color=030712&border_color=A855F7&border_radius=10&hide_border=false" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=Ravianshu19&show_icons=true&hide=contribs&title_color=00F5FF&icon_color=A855F7&text_color=cbd5e1&bg_color=030712&border_color=A855F7&border_radius=10&rank_icon=github" height="170" alt="GitHub Stats" />
 
 </div>
 
@@ -103,85 +103,66 @@ Additional modules in active development — check the pinned repos below for th
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ravianshu19&layout=compact&title_color=00F5FF&icon_color=A855F7&text_color=cbd5e1&bg_color=030712&border_color=A855F7&border_radius=10&hide_border=false" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ravianshu19&layout=compact&title_color=00F5FF&text_color=cbd5e1&bg_color=030712&border_color=A855F7&border_radius=10" height="170" alt="Top Languages" />
 
 </div>
 
-<br/>
+---
+
+<img src="assets/cyberpunk_divider_v5.svg" width="100%" />
+
+---
+
+## ◇ CONTRIBUTION\_SNAKE
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Ravianshu19/Ravianshu19/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="Contribution Snake" width="100%" />
-<img src="https://raw.githubusercontent.com/Ravianshu19/Ravianshu19/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="Contribution Snake" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ravianshu19/Ravianshu19/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ravianshu19/Ravianshu19/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Ravianshu19/Ravianshu19/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</picture>
 
 </div>
 
-<br/>
+---
 
 <img src="assets/cyberpunk_divider_v5.svg" width="100%" />
 
-<br/>
+---
 
-## ◇ VERIFIED_CREDENTIALS
-
-| | Achievement | Result |
-|:---:|:---|:---|
-| 🏆 | **Gridlock Hackathon 2.0 — Winner** | Demand-prediction model scaled from 90.9% → 98.77% R² via tuned ensembles |
-| 🥈 | **Kaggle: Titanic Ensemble** | Top 2% leaderboard — custom feature pipeline + XGBoost + random forests |
-| 🥉 | **Kaggle: Predict Future Sales** | Top 5% leaderboard — rolling time-series features + CatBoost regression |
-
-<br/>
-
-<img src="assets/cyberpunk_divider_v5.svg" width="100%" />
-
-<br/>
-
-## ◇ TECH_MATRIX
+## ◇ TECH\_MATRIX
 
 <div align="center">
 
 **AI & ML**
-<br/>
+
 <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow&theme=dark" alt="AI Stack" />
 
 <br/><br/>
 
 **BACKEND & DATA**
-<br/>
+
 <img src="https://skillicons.dev/icons?i=fastapi,nodejs,postgres,mongodb,redis&theme=dark" alt="Backend Stack" />
 
 <br/><br/>
 
 **FRONTEND & DEVTOOLS**
-<br/>
+
 <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,ts,docker,git,linux,vscode&theme=dark" alt="Tools Stack" />
 
 </div>
 
-<br/>
+---
 
 <img src="assets/cyberpunk_divider_v5.svg" width="100%" />
 
-<br/>
+---
 
-## ◇ NOW_PLAYING
-
-<div align="center">
-
-[![Spotify](https://img.shields.io/badge/COGNITIVE_FUEL-LO_FI_BEATS-A855F7?style=for-the-badge&logo=spotify&logoColor=000000&labelColor=1e1b4b)](https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn)
-
-🎧 *Coding + Coffee + Lo-Fi*
-
-</div>
-
-<br/>
-
-<img src="assets/cyberpunk_divider_v5.svg" width="100%" />
-
-<br/>
+## ◇ SYSTEM\_SCHEMATIC
 
 <details>
-<summary><strong>▼ SYSTEM_SCHEMATIC — Agentic Research Workflow</strong></summary>
+<summary><strong>▼ Agentic Research Workflow — Architecture</strong></summary>
 
 <br/>
 
@@ -206,23 +187,41 @@ graph TD
 
 </details>
 
-<br/>
+---
 
 <img src="assets/cyberpunk_divider_v5.svg" width="100%" />
 
-<br/>
+---
 
-## ◇ CONNECT // INITIATE_HANDSHAKE
+## ◇ NOW\_PLAYING
 
 <div align="center">
 
-[![Gmail](https://img.shields.io/badge/Gmail-ravianshu278%40gmail.com-00F5FF?style=for-the-badge&logo=gmail&logoColor=000000&labelColor=1e1b4b)](mailto:ravianshu278@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Ravianshu19-A855F7?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=1e1b4b)](https://github.com/Ravianshu19)
+[![Spotify](https://img.shields.io/badge/COGNITIVE__FUEL-LO__FI__BEATS-A855F7?style=for-the-badge&logo=spotify&logoColor=ffffff&labelColor=1e1b4b)](https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn)
+
+🎧 *Coding + Coffee + Lo-Fi*
+
+</div>
+
+---
+
+<img src="assets/cyberpunk_divider_v5.svg" width="100%" />
+
+---
+
+## ◇ CONNECT // INITIATE\_HANDSHAKE
+
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/GMAIL-ravianshu278%40gmail.com-00F5FF?style=for-the-badge&logo=gmail&logoColor=000000&labelColor=1e1b4b)](mailto:ravianshu278@gmail.com)
+[![GitHub](https://img.shields.io/badge/GITHUB-Ravianshu19-A855F7?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=1e1b4b)](https://github.com/Ravianshu19)
 
 <br/><br/>
 
 **"Building intelligent systems, one commit at a time."**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=030712&customColorList=24,30,36&bg_color=00000000" alt="Footer wave" width="100%" />
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=24&desc=&section=footer" width="100%" alt="Footer" />
 
 </div>
