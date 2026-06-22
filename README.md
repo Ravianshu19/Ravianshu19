@@ -9,7 +9,7 @@
 
 <br/>
 
-![Visitor Count](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=SYSTEM_ACCESSES&query=%24.count&url=https%3A%2F%2Fapi.counterapi.dev%2Fv1%2Fravianshu19%2Fprofile%2Fup&color=00F5FF&labelColor=1e1b4b)
+![Visitor Count](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=SYSTEM_ACCESSES&query=%24.count&url=https%3A%2F%2Fapi.countapi.xyz%2Fhit%2Fravianshu19%2Fprofile&color=00F5FF&labelColor=1e1b4b)
 ![Last Commit](https://img.shields.io/github/last-commit/Ravianshu19/Ravianshu19?style=for-the-badge&label=LAST_COMPILATION&color=A855F7&labelColor=1e1b4b)
 ![Status](https://img.shields.io/badge/COGNITION-PRODUCTION_ENGINEERING-00F5FF?style=for-the-badge&labelColor=1e1b4b)
 
