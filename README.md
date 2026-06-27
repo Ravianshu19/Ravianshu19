@@ -77,14 +77,6 @@
 
 ---
 
-<img src="assets/verified_credentials_v1.svg" width="100%" alt="Verified Credentials"/>
-
----
-
-<img src="assets/cyberpunk_divider_v5.svg" width="100%" />
-
----
-
 ## ◇ TECH\_MATRIX
 
 <div align="center">
