@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 365" width="100%" height="365" fill="none">
+  <defs>
+    <style>
+      .mono { font-family: 'Share Tech Mono', 'Courier New', Courier, monospace; }
+      .sans { font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif; }
+    </style>
+    <filter id="as-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="as-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="as-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="c1-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="100%" stop-color="#0891B2"/>
+    </linearGradient>
+    <linearGradient id="c2-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="c3-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#16A34A"/>
+    </linearGradient>
+    <linearGradient id="c4-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer panel -->
+  <rect width="798" height="363" x="1" y="1" rx="12" fill="#0A0B10" stroke="url(#as-grad)" stroke-width="1.5"/>
+
+  <!-- Blueprint grid -->
+  <path d="M0,30 L800,30 M0,60 L800,60 M0,90 L800,90 M0,120 L800,120 M0,150 L800,150 M0,180 L800,180 M0,210 L800,210 M0,240 L800,240 M0,270 L800,270 M0,300 L800,300 M0,330 L800,330 M0,360 L800,360" stroke="#fff" stroke-opacity="0.012" stroke-width="0.5"/>
+  <path d="M100,0 L100,365 M200,0 L200,365 M300,0 L300,365 M400,0 L400,365 M500,0 L500,365 M600,0 L600,365 M700,0 L700,365" stroke="#fff" stroke-opacity="0.012" stroke-width="0.5"/>
+
+  <!-- Corner brackets -->
+  <path d="M15,6 L6,6 L6,15" stroke="#00F5FF" stroke-width="2" fill="none"/>
+  <path d="M785,6 L794,6 L794,15" stroke="#A855F7" stroke-width="2" fill="none"/>
+  <path d="M6,350 L6,359 L15,359" stroke="#A855F7" stroke-width="2" fill="none"/>
+  <path d="M794,350 L794,359 L785,359" stroke="#00F5FF" stroke-width="2" fill="none"/>
+
+  <!-- Section label -->
+  <text x="25" y="35" class="mono" font-size="11" fill="#A855F7" letter-spacing="2" filter="url(#as-purple)">◇ ACTIVE_CORE_SYSTEMS</text>
+  <line x1="25" y1="44" x2="775" y2="44" stroke="#fff" stroke-opacity="0.07" stroke-width="1"/>
+
+  <!-- ═══════════ CARD 1 — Agentic Research Workflow (x=15, y=53) ═══════════ -->
+  <rect x="15" y="53" width="375" height="140" rx="8" fill="#060810" stroke="#0D2535" stroke-width="1"/>
+  <rect x="15" y="53" width="375" height="3" rx="2" fill="url(#c1-accent)"/>
+
+  <!-- C1 status + title -->
+  <circle cx="35" cy="76" r="5" fill="#22C55E">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="48" y="81" class="sans" font-size="13" font-weight="bold" fill="#00F5FF" filter="url(#as-cyan)">Agentic Research Workflow</text>
+
+  <!-- C1 separator -->
+  <line x1="30" y1="92" x2="375" y2="92" stroke="#0D2535" stroke-width="1"/>
+
+  <!-- C1 description -->
+  <text x="30" y="110" class="mono" font-size="10" fill="#64748B">Autonomous multi-agent workflow built with LangGraph —</text>
+  <text x="30" y="124" class="mono" font-size="10" fill="#64748B">coordinates planning, scraping, and synthesis.</text>
+
+  <!-- C1 tag pills -->
+  <rect x="30" y="141" width="46" height="18" rx="3" fill="#061018" stroke="#0D2535"/>
+  <text x="36" y="153" class="mono" font-size="9" fill="#00B4CC">Python</text>
+  <rect x="81" y="141" width="62" height="18" rx="3" fill="#061018" stroke="#0D2535"/>
+  <text x="87" y="153" class="mono" font-size="9" fill="#00B4CC">LangGraph</text>
+  <rect x="148" y="141" width="46" height="18" rx="3" fill="#061018" stroke="#0D2535"/>
+  <text x="154" y="153" class="mono" font-size="9" fill="#00B4CC">Tavily</text>
+  <rect x="199" y="141" width="67" height="18" rx="3" fill="#061018" stroke="#0D2535"/>
+  <text x="205" y="153" class="mono" font-size="9" fill="#00B4CC">Gemini API</text>
+  <rect x="271" y="141" width="62" height="18" rx="3" fill="#061018" stroke="#0D2535"/>
+  <text x="277" y="153" class="mono" font-size="9" fill="#00B4CC">Streamlit</text>
+
+  <!-- ═══════════ CARD 2 — Financial Market Intelligence (x=410, y=53) ═══════════ -->
+  <rect x="410" y="53" width="375" height="140" rx="8" fill="#060810" stroke="#1A0D35" stroke-width="1"/>
+  <rect x="410" y="53" width="375" height="3" rx="2" fill="url(#c2-accent)"/>
+
+  <!-- C2 status + title -->
+  <circle cx="430" cy="76" r="5" fill="#22C55E">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="443" y="81" class="sans" font-size="13" font-weight="bold" fill="#A855F7" filter="url(#as-purple)">Financial Market Intelligence</text>
+
+  <!-- C2 separator -->
+  <line x1="425" y1="92" x2="770" y2="92" stroke="#1A0D35" stroke-width="1"/>
+
+  <!-- C2 description -->
+  <text x="425" y="110" class="mono" font-size="10" fill="#64748B">Real-time financial pipeline and sentiment aggregator —</text>
+  <text x="425" y="124" class="mono" font-size="10" fill="#64748B">maps news streams to tickers &amp; indicators.</text>
+
+  <!-- C2 tag pills -->
+  <rect x="425" y="141" width="51" height="18" rx="3" fill="#0A0618" stroke="#1A0D35"/>
+  <text x="431" y="153" class="mono" font-size="9" fill="#9B59DB">FastAPI</text>
+  <rect x="481" y="141" width="67" height="18" rx="3" fill="#0A0618" stroke="#1A0D35"/>
+  <text x="487" y="153" class="mono" font-size="9" fill="#9B59DB">PostgreSQL</text>
+  <rect x="553" y="141" width="40" height="18" rx="3" fill="#0A0618" stroke="#1A0D35"/>
+  <text x="559" y="153" class="mono" font-size="9" fill="#9B59DB">Redis</text>
+  <rect x="598" y="141" width="46" height="18" rx="3" fill="#0A0618" stroke="#1A0D35"/>
+  <text x="604" y="153" class="mono" font-size="9" fill="#9B59DB">Celery</text>
+  <rect x="649" y="141" width="78" height="18" rx="3" fill="#0A0618" stroke="#1A0D35"/>
+  <text x="655" y="153" class="mono" font-size="9" fill="#9B59DB">Transformers</text>
+
+  <!-- ═══════════ CARD 3 — Electric Vehicles (x=15, y=210) ═══════════ -->
+  <rect x="15" y="210" width="375" height="140" rx="8" fill="#060810" stroke="#061A0E" stroke-width="1"/>
+  <rect x="15" y="210" width="375" height="3" rx="2" fill="url(#c3-accent)"/>
+
+  <!-- C3 status + title -->
+  <circle cx="35" cy="233" r="5" fill="#22C55E">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="48" y="238" class="sans" font-size="13" font-weight="bold" fill="#22C55E">Electric Vehicles Market Analysis</text>
+
+  <!-- C3 separator -->
+  <line x1="30" y1="249" x2="375" y2="249" stroke="#061A0E" stroke-width="1"/>
+
+  <!-- C3 description -->
+  <text x="30" y="267" class="mono" font-size="10" fill="#64748B">Large-scale geospatial analysis mapping EV adoption,</text>
+  <text x="30" y="281" class="mono" font-size="10" fill="#64748B">grid impact, and battery metrics from public datasets.</text>
+
+  <!-- C3 tag pills -->
+  <rect x="30" y="298" width="51" height="18" rx="3" fill="#050E07" stroke="#061A0E"/>
+  <text x="36" y="310" class="mono" font-size="9" fill="#16A34A">Jupyter</text>
+  <rect x="86" y="298" width="46" height="18" rx="3" fill="#050E07" stroke="#061A0E"/>
+  <text x="92" y="310" class="mono" font-size="9" fill="#16A34A">Pandas</text>
+  <rect x="137" y="298" width="40" height="18" rx="3" fill="#050E07" stroke="#061A0E"/>
+  <text x="143" y="310" class="mono" font-size="9" fill="#16A34A">NumPy</text>
+  <rect x="182" y="298" width="67" height="18" rx="3" fill="#050E07" stroke="#061A0E"/>
+  <text x="188" y="310" class="mono" font-size="9" fill="#16A34A">Matplotlib</text>
+  <rect x="254" y="298" width="78" height="18" rx="3" fill="#050E07" stroke="#061A0E"/>
+  <text x="260" y="310" class="mono" font-size="9" fill="#16A34A">Scikit-Learn</text>
+
+  <!-- ═══════════ CARD 4 — More Systems (x=410, y=210) ═══════════ -->
+  <rect x="410" y="210" width="375" height="140" rx="8" fill="#060810" stroke="#1A0C05" stroke-width="1"/>
+  <rect x="410" y="210" width="375" height="3" rx="2" fill="url(#c4-accent)"/>
+
+  <!-- C4 status + title -->
+  <circle cx="430" cy="233" r="5" fill="#F97316">
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="443" y="238" class="sans" font-size="13" font-weight="bold" fill="#F97316">More systems compiling...</text>
+
+  <!-- C4 separator -->
+  <line x1="425" y1="249" x2="770" y2="249" stroke="#1A0C05" stroke-width="1"/>
+
+  <!-- C4 description -->
+  <text x="425" y="267" class="mono" font-size="10" fill="#64748B">Additional modules in active development —</text>
+  <text x="425" y="281" class="mono" font-size="10" fill="#64748B">check the pinned repos for the latest builds.</text>
+
+  <!-- C4 compilation bar animation -->
+  <rect x="425" y="298" width="330" height="6" rx="3" fill="#1A0C05"/>
+  <rect x="425" y="298" width="330" height="6" rx="3" fill="url(#c4-accent)" opacity="0.6">
+    <animate attributeName="width" values="0;330;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="425" y="323" class="mono" font-size="10" fill="#F97316">COMPILATION_PROGRESS: ACTIVE</text>
+  <text x="625" y="336" class="mono" font-size="10" fill="#475569">→ View all repos</text>
+</svg>

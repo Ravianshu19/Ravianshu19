@@ -21,18 +21,7 @@
 
 ---
 
-## ◇ ABOUT\_ME // WHOAMI
-
-```bash
-> whoami
-Ravi Anshu — AI Engineer × Product Builder
-
-Focus areas:
-• Backend Engineering      → FastAPI, Celery, Redis production pipelines
-• ML Inference & XAI       → CatBoost, XGBoost, SHAP attribution
-• Agentic AI Systems       → LangChain, LangGraph custom tool interfaces
-• Protocol Engineering     → Model Context Protocol (MCP) servers
-```
+<img src="assets/about_me_v1.svg" width="100%" alt="About Me"/>
 
 ---
 
@@ -40,50 +29,7 @@ Focus areas:
 
 ---
 
-## ◇ ACTIVE\_CORE\_SYSTEMS
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-**🟢 [Agentic Research Workflow](https://github.com/Ravianshu19/AI-ML/tree/main/01-Agentic-Research-Workflow)**
-
-Autonomous multi-agent research workflow built with LangGraph — coordinates planning, web scraping, and synthesis into verified reports.
-
-`Python` `LangGraph` `Tavily` `Gemini API` `Streamlit`
-
-</td>
-<td width="50%" valign="top">
-
-**🟢 [Financial Market Intelligence](https://github.com/Ravianshu19/Financial-Market-Intelligence)**
-
-Real-time financial data pipeline and sentiment aggregator — ingests news streams and maps sentiment to tickers and indicators.
-
-`FastAPI` `PostgreSQL` `Redis` `Celery` `Transformers`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**🟢 [Electric Vehicles Market Analysis](https://github.com/Ravianshu19/Data-Science/tree/main/Electric-Vehicles-Market-Analysis)**
-
-Large-scale geospatial analysis mapping EV adoption, grid impact, and battery metrics from public datasets.
-
-`Jupyter` `Pandas` `NumPy` `Matplotlib` `Scikit-Learn`
-
-</td>
-<td width="50%" valign="top">
-
-**🟠 More systems compiling...**
-
-Additional modules in active development — check pinned repos for the latest builds.
-
-[`→ View all repos`](https://github.com/Ravianshu19?tab=repositories)
-
-</td>
-</tr>
-</table>
+<img src="assets/active_systems_v1.svg" width="100%" alt="Active Core Systems"/>
 
 ---
 
@@ -124,6 +70,14 @@ Additional modules in active development — check pinned repos for the latest b
 </picture>
 
 </div>
+
+---
+
+<img src="assets/cyberpunk_divider_v5.svg" width="100%" />
+
+---
+
+<img src="assets/verified_credentials_v1.svg" width="100%" alt="Verified Credentials"/>
 
 ---
 

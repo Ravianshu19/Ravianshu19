@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" width="100%" height="290" fill="none">
+  <defs>
+    <style>
+      .mono { font-family: 'Share Tech Mono', 'Courier New', Courier, monospace; }
+    </style>
+    <filter id="am-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="am-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="am-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="am-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer panel -->
+  <rect width="798" height="288" x="1" y="1" rx="12" fill="#0A0B10" stroke="url(#am-grad)" stroke-width="1.5"/>
+
+  <!-- Blueprint grid -->
+  <path d="M0,30 L800,30 M0,60 L800,60 M0,90 L800,90 M0,120 L800,120 M0,150 L800,150 M0,180 L800,180 M0,210 L800,210 M0,240 L800,240 M0,270 L800,270" stroke="#fff" stroke-opacity="0.015" stroke-width="0.5"/>
+  <path d="M100,0 L100,290 M200,0 L200,290 M300,0 L300,290 M400,0 L400,290 M500,0 L500,290 M600,0 L600,290 M700,0 L700,290" stroke="#fff" stroke-opacity="0.015" stroke-width="0.5"/>
+
+  <!-- Corner brackets -->
+  <path d="M15,6 L6,6 L6,15" stroke="#00F5FF" stroke-width="2" fill="none"/>
+  <path d="M785,6 L794,6 L794,15" stroke="#A855F7" stroke-width="2" fill="none"/>
+  <path d="M6,275 L6,284 L15,284" stroke="#A855F7" stroke-width="2" fill="none"/>
+  <path d="M794,275 L794,284 L785,284" stroke="#00F5FF" stroke-width="2" fill="none"/>
+
+  <!-- Section label -->
+  <text x="25" y="35" class="mono" font-size="11" fill="#A855F7" letter-spacing="2" filter="url(#am-purple)">◇ ABOUT_ME // WHOAMI</text>
+  <line x1="25" y1="44" x2="775" y2="44" stroke="#fff" stroke-opacity="0.07" stroke-width="1"/>
+
+  <!-- Terminal window -->
+  <rect x="20" y="53" width="760" height="220" rx="8" fill="#060810" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="20" y="53" width="760" height="26" rx="8" fill="#0D1117"/>
+  <rect x="20" y="67" width="760" height="12" fill="#0D1117"/>
+  <circle cx="40" cy="66" r="5" fill="#EF4444"/>
+  <circle cx="58" cy="66" r="5" fill="#FBBF24"/>
+  <circle cx="76" cy="66" r="5" fill="#22C55E"/>
+  <text x="400" y="71" class="mono" font-size="10" fill="#475569" text-anchor="middle">bash — ravianshu19@github — zsh</text>
+
+  <!-- Shell prompt -->
+  <text x="38" y="108" class="mono" font-size="13" fill="#22C55E">ravianshu19</text>
+  <text x="131" y="108" class="mono" font-size="13" fill="#475569">@</text>
+  <text x="141" y="108" class="mono" font-size="13" fill="#00F5FF">github</text>
+  <text x="199" y="108" class="mono" font-size="13" fill="#475569">~$</text>
+  <text x="222" y="108" class="mono" font-size="13" fill="#E2E8F0">whoami</text>
+  <rect x="283" y="93" width="8" height="17" fill="#00F5FF">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Output: name -->
+  <text x="38" y="135" class="mono" font-size="14" fill="#00F5FF" filter="url(#am-cyan)">Ravi Anshu</text>
+  <text x="141" y="135" class="mono" font-size="14" fill="#334155"> — </text>
+  <text x="167" y="135" class="mono" font-size="14" fill="#CBD5E1">AI Engineer</text>
+  <text x="277" y="135" class="mono" font-size="14" fill="#334155"> × </text>
+  <text x="301" y="135" class="mono" font-size="14" fill="#CBD5E1">Product Builder</text>
+
+  <!-- Separator -->
+  <line x1="38" y1="148" x2="520" y2="148" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Focus areas -->
+  <text x="38" y="167" class="mono" font-size="11" fill="#475569">Focus areas:</text>
+
+  <!-- Row 1 -->
+  <text x="38" y="186" class="mono" font-size="11" fill="#334155">•</text>
+  <text x="52" y="186" class="mono" font-size="11" fill="#94A3B8">Backend Engineering</text>
+  <text x="189" y="186" class="mono" font-size="11" fill="#1E3A4A">  →  </text>
+  <text x="225" y="186" class="mono" font-size="11" fill="#00F5FF">FastAPI, Celery, Redis</text>
+  <text x="375" y="186" class="mono" font-size="11" fill="#475569">  production pipelines</text>
+
+  <!-- Row 2 -->
+  <text x="38" y="203" class="mono" font-size="11" fill="#334155">•</text>
+  <text x="52" y="203" class="mono" font-size="11" fill="#94A3B8">ML Inference &amp; XAI</text>
+  <text x="189" y="203" class="mono" font-size="11" fill="#1E3A4A">  →  </text>
+  <text x="225" y="203" class="mono" font-size="11" fill="#00F5FF">CatBoost, XGBoost, SHAP</text>
+  <text x="389" y="203" class="mono" font-size="11" fill="#475569">  attribution</text>
+
+  <!-- Row 3 -->
+  <text x="38" y="220" class="mono" font-size="11" fill="#334155">•</text>
+  <text x="52" y="220" class="mono" font-size="11" fill="#94A3B8">Agentic AI Systems</text>
+  <text x="189" y="220" class="mono" font-size="11" fill="#1E3A4A">  →  </text>
+  <text x="225" y="220" class="mono" font-size="11" fill="#A855F7">LangChain, LangGraph</text>
+  <text x="371" y="220" class="mono" font-size="11" fill="#475569">  custom tool interfaces</text>
+
+  <!-- Row 4 -->
+  <text x="38" y="237" class="mono" font-size="11" fill="#334155">•</text>
+  <text x="52" y="237" class="mono" font-size="11" fill="#94A3B8">Protocol Engineering</text>
+  <text x="189" y="237" class="mono" font-size="11" fill="#1E3A4A">  →  </text>
+  <text x="225" y="237" class="mono" font-size="11" fill="#A855F7">Model Context Protocol (MCP) servers</text>
+
+  <!-- Status bar -->
+  <line x1="20" y1="258" x2="780" y2="258" stroke="#1E293B" stroke-width="1"/>
+  <circle cx="38" cy="270" r="4" fill="#22C55E" filter="url(#am-green)">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="50" y="274" class="mono" font-size="10" fill="#22C55E">SYSTEM ACTIVE</text>
+  <text x="580" y="274" class="mono" font-size="10" fill="#1E293B">SYS_STATUS: STABLE  |  LOC: CHENNAI.IN</text>
+</svg>
